@@ -1,0 +1,10 @@
+#!/bin/sh
+# FILE: "/home/joze/src/tclreadline/sample.tclshrc"
+# LAST MODIFICATION: "Thu, 23 Mar 2000 21:13:08 +0100 (joze)"
+# (C) 1998 - 2000 by Johannes Zellner, <johannes@zellner.org>
+# $Id: sample.tclshrc,v 1.1 2000/07/02 16:30:25 joze Exp $
+# vim:set ft=tcl: \
+exec tclsh "$0" "$@"
+
+source ~/local/bin/neoTclReadline
+neoTclReadline -history 3

@@ -1,0 +1,13 @@
+
+if {[info exists env(TCLDEVPATH)]} {
+  if {[file exists $env(TCLDEVPATH)/cfg/edafiles/user_icc2.setup]} {
+    source $env(TCLDEVPATH)/cfg/edafiles/user_icc2.setup ;
+  }
+}
+
+# lappend auto_path ~/local/Tcllib/lib
+
+file mkdir ./.icc_tmp ;
+setenv TMP ./.icc_tmp ;
+
+

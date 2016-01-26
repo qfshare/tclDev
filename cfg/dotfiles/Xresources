@@ -1,0 +1,32 @@
+!===============================
+XTerm*locale: true
+XTerm*utf8Title: true
+XTerm*fontMenu*fontdefault*Label: Default
+XTerm*faceName: Courier 10 Pitch:antialias=True:pixelsize=18
+
+XTerm*faceNameDoublesize: Microsoft YaHei:antialias=True:pixelsize=12
+
+XTerm*inputMethod: ibus
+XTerm*faceSize: 20
+XTerm*faceSize1: 20
+XTerm*faceSize2: 20
+XTerm*faceSize3: 20
+XTerm*faceSize4: 20
+XTerm*faceSize5: 20
+XTerm*faceSize6: 20
+XTerm.cjkWidth:true
+XTerm*background: #C7EDCC
+XTerm*foreground: #000000
+XTerm*scrollBar: true
+XTerm*rightScrollBar: true
+XTerm*jumpScroll: true
+XTerm*SaveLines: 1000
+
+XTerm*VT100.Translations: #override \n\
+Ctrl <KeyPress> V: insert-selection(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+<BtnUp>: select-end(CLIPBOARD,PRIMARY,CUT_BUFFER0) \n\
+Ctrl <KeyPress> P: print() \n
+
+
+!- End of setting Xterm
+!=========================

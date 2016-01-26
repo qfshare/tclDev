@@ -1,0 +1,2605 @@
+
+" Vim dictionary file "
+
+" Language:	RTL-Compiler "
+" Maintainer:	Paul Zimmer <paulzimmer@zimmerdesignservices.com> "
+" Original:	Paul Zimmer <paulzimmer@zimmerdesignservices.com> "
+" Version:	11.66 Sun Nov 27 16:58:19 PST 2011 "
+" "
+" "
+
+
+" Attributes "
+active
+active_operating_conditions
+adder
+additional_help
+adjust_value
+aio_pin
+analyzed
+arch_filename
+area
+area_multiplier
+aspect_ratio
+async_clear
+async_clear_phase
+async_preset
+async_preset_phase
+atpg_use
+attribute_path
+auto_partition
+auto_super_thread
+auto_ungroup
+auto_ungroup_ok
+avoid
+base_domains
+base_mode
+bcell_location
+bcell_required
+bcell_segment
+bcell_type
+bdy_enable
+bdy_in
+bdy_out
+bit_blasted_port_style
+bit_width
+bits
+blackbox
+blockages
+body
+bottom_layer
+boundary
+boundary_change
+boundary_optimize_constant_hier_pins
+boundary_optimize_equal_opposite_hier_pins
+boundary_optimize_feedthrough_hier_pins
+boundary_optimize_hier_pin_invertible
+boundary_optimize_invert_hier_pins
+boundary_optimize_invert_hier_pins_rename_nets
+boundary_optimize_invert_hier_pins_renaming_extension
+boundary_opto
+boundary_tdo
+boundary_type
+box
+boxes
+break_timing_paths
+break_timing_paths_by_mode
+bsdl
+bsr_clockdr
+bsr_dummy_after
+bsr_dummy_before
+bsr_shiftdr
+bsr_updatedr
+buffer
+bundle
+bus
+bus_naming_style
+candidate_impls
+cap_multiplier
+cap_scale_in_fF
+cap_table_file
+cap_table_name
+capacitance
+capture
+capturedr
+capturer
+case_analysis_multi_driver_propagation
+case_analysis_sequential_propagation
+category
+causes_ideal_net
+ccd_executable
+cell
+cell_area
+cell_bitwidth
+cell_count
+cell_delay_multiplier
+cell_internal_power
+cell_leakage_power
+cell_min_delay_multiplier
+cells
+check_function
+class
+clock
+clock_edge
+clock_gate_clock_pin
+clock_gate_enable_pin
+clock_gate_obs_pin
+clock_gate_out_pin
+clock_gate_reset_pin
+clock_gate_test_pin
+clock_gating_integrated_cell
+clock_hold_uncertainty
+clock_hold_uncertainty_by_mode
+clock_input
+clock_network_early_latency
+clock_network_early_latency_by_mode
+clock_network_late_latency
+clock_network_late_latency_by_mode
+clock_network_latency_included
+clock_output
+clock_phase
+clock_rise
+clock_sense_negative
+clock_sense_positive
+clock_sense_stop_propagation
+clock_setup_uncertainty
+clock_setup_uncertainty_by_mode
+clock_source_early_latency
+clock_source_early_latency_by_mode
+clock_source_late_latency
+clock_source_late_latency_by_mode
+clock_source_latency_included
+clock_sources_inverted
+clock_sources_non_inverted
+clockdr
+clocked_by_mtclk
+clp_ignore_ls_high_to_low
+clp_treat_errors_as_warnings
+combinational
+command_log
+comp_enable
+complete
+component
+components
+compressed
+compute_function
+computed
+congestion_avoid
+congestion_effort
+connect_delay
+connected_scan_clock_a
+connected_scan_clock_b
+connected_shift_enable
+constant_prop_through_iso_cell
+constraint
+constraint_mode
+constraint_multiplier
+continue_on_error
+controllable
+core_wrapper
+cost_group
+count
+counter_length
+cpf_pins
+ctp_buffer_class
+ctp_buffers
+ctp_clock_domain
+ctp_clock_prob
+ctp_clones
+ctp_enable_prob
+ctp_fanin
+ctp_fanout
+ctp_fanout_flops
+ctp_insertion
+ctp_max_flop_slew
+ctp_max_slew
+ctp_slew
+ctp_total_load
+ctp_type
+ctp_wire_load
+current_mode
+current_value
+custom_bcell
+cut_cols
+cut_layer
+cut_pattern
+cut_rows
+cutouts
+cx
+cy
+d_function
+data_type
+dedicated_pin
+def_extension
+def_history
+def_name
+def_output_escape_multibit
+def_output_version
+def_technology
+def_version
+default
+default_location
+default_power_rail
+default_shift_enable
+default_value
+default_wireload
+define_clock_with_new_cost_group
+delay
+delay_value
+delete_flops_on_preserved_net
+delete_hier_insts_on_preserved_net
+delete_unloaded_insts
+delete_unloaded_seqs
+density
+derive_bussed_pins
+description
+detailed_sdc_messages
+dex_report_path
+dex_work_dir
+dft_abstract_dont_scan
+dft_boundary_scan_exists
+dft_clock_waveform_divide_fall
+dft_clock_waveform_divide_period
+dft_clock_waveform_divide_rise
+dft_clock_waveform_fall
+dft_clock_waveform_period
+dft_clock_waveform_rise
+dft_compression_signal
+dft_connect_scan_data_pins_during_mapping
+dft_connect_shift_enable_during_mapping
+dft_constant_value
+dft_controllable
+dft_custom_se
+dft_dont_scan
+dft_enable_hookup_pin
+dft_enable_hookup_polarity
+dft_force_blackbox_for_atpg
+dft_hookup_pin
+dft_hookup_pin_sdi
+dft_hookup_pin_sdo
+dft_hookup_polarity
+dft_identify_internal_test_clocks
+dft_identify_test_signals
+dft_identify_top_level_test_clocks
+dft_identify_xsource_violations_from_timing_models
+dft_include_controllable_pins_in_abstract_model
+dft_include_test_signal_outputs_in_abstract_model
+dft_is_blackbox_for_atpg
+dft_iso_rule
+dft_lockup_element_type
+dft_mapped
+dft_mask_clock
+dft_max_length_of_scan_chains
+dft_min_number_of_scan_chains
+dft_misr_clock
+dft_mix_clock_edges_in_scan_chains
+dft_opcg_domain_blocking
+dft_part_of_segment
+dft_prefix
+dft_propagate_test_signals_from_hookup_pins_only
+dft_report_empty_test_clocks
+dft_rtl_insertion
+dft_scan_chain
+dft_scan_map_mode
+dft_scan_output_preference
+dft_scan_style
+dft_scanbit_waveform_analysis
+dft_sdi_output_hookup_pin
+dft_sdo_input_hookup_pin
+dft_shift_register_identification_mode
+dft_status
+dft_tail_test_clock
+dft_tail_test_clock_edge
+dft_test_clock
+dft_test_clock_edge
+dft_test_clock_source
+dft_violation
+differential
+differential_pairs
+direction
+disable_power_mode_factorization
+disabled_arcs
+disabled_arcs_by_mode
+divide_by
+divide_fall
+divide_period
+divide_rise
+domain
+domain_conditions
+domain_macro_parameter
+dont_infer_multibit
+dont_report_library
+dont_retime
+dont_use_qbar_seq_pins
+dot6_acdcsel
+dot6_acpulse
+dot6_preset_clock
+dot6_trcell_enable
+dp_csa
+dp_postmap_downsize
+dp_postmap_upsize
+dp_rewriting
+dp_sharing
+dp_speculation
+drc_first
+drc_max_cap_first
+drc_max_fanout_first
+drc_max_trans_first
+driven_by_supply0
+driven_by_supply1
+driver_type
+drivers
+edge
+elements
+embedded_script
+enable_break_timing_paths_by_mode
+enable_data_check
+enable_driver
+enable_polarity
+enabled
+enc_assign_buffer
+enc_assign_removal
+enc_force_place_incr
+enc_gzip_interface_files
+enc_in_place_opt
+enc_launch_servers
+enc_module_plan
+enc_opt_drv
+enc_pre_place_opt
+enc_temp_dir
+enc_timing_driven_place
+enc_user_constraint_file
+enc_user_mode_file
+encounter_executable
+endpoint
+endpoints
+entity
+entity_filename
+equivalent_port
+et_license_options
+ets_executable
+exact_match_seq_async_ctrls
+exact_match_seq_sync_ctrls
+exception_type
+exceptions
+exclude_pins
+exploration_power_domain
+external_delay_pins
+external_delays
+external_delays_by_mode
+external_driven_pin_fall
+external_driven_pin_rise
+external_driver
+external_driver_from_pin
+external_driver_input_slew
+external_fanout_load
+external_non_tristate_drivers
+external_pin_cap
+external_resistance
+external_wire_cap
+external_wire_res
+external_wireload_fanout
+external_wireload_model
+fail_on_error_mesg
+fall
+fall_capacitance_range
+fanout_cap
+fanout_load
+file_name
+files
+find_inefficient_threshold
+find_inefficient_use
+fix_min_drcs
+fixed
+fixed_slew
+fixedbump
+flip
+flop
+force_merge_combos_into_multibit_cells
+force_merge_seqs_into_multibit_cells
+force_via_resistance
+force_wireload
+formula
+fplan_height
+fplan_width
+from_pin
+from_points
+from_power_domain
+function
+gen_module_prefix
+generated_clock
+golden
+ground
+ground_direction
+ground_voltage
+group
+group_generate_portname_from_netname
+group_instance_suffix
+groups
+gui_auto_update
+gui_enabled
+gui_sv_threshold
+gui_sv_update
+gui_visible
+hal_executable
+hard_region
+hardspacing
+has_cells_having_power_ground_pins
+has_external_shutoff
+has_fanout
+has_fills
+has_slots
+hdl_allow_inout_const_port_connect
+hdl_allow_instance_name_conflict
+hdl_array_naming_style
+hdl_async_set_reset
+hdl_auto_async_set_reset
+hdl_auto_exec_sdc_scripts
+hdl_auto_sync_set_reset
+hdl_bidirectional_assign
+hdl_bit_blast_threshold
+hdl_case_mux_threshold
+hdl_case_sensitive_instances
+hdl_config_name
+hdl_create_label_for_unlabeled_generate
+hdl_cw_list
+hdl_decimal_parameter_name
+hdl_delete_transparent_latch
+hdl_enable_proc_name
+hdl_error_on_blackbox
+hdl_error_on_latch
+hdl_error_on_logic_abstract
+hdl_error_on_negedge
+hdl_ff_keep_explicit_feedback
+hdl_ff_keep_feedback
+hdl_filelist
+hdl_flatten_complex_port
+hdl_generate_index_style
+hdl_generate_separator
+hdl_index_mux_threshold
+hdl_infer_unresolved_from_logic_abstract
+hdl_instance_array_naming_style
+hdl_interface_separator
+hdl_language
+hdl_latch_keep_feedback
+hdl_link_from_any_lib
+hdl_max_loop_limit
+hdl_max_recursion_limit
+hdl_nc_compatible_module_linking
+hdl_parameter
+hdl_parameter_naming_style
+hdl_parameters
+hdl_pipeline_comp
+hdl_preserve_dangling_output_nets
+hdl_preserve_supply_nets
+hdl_preserve_unused_registers
+hdl_primitive_input_multibit
+hdl_proc_name
+hdl_record_naming_style
+hdl_reg_naming_style
+hdl_report_case_info
+hdl_search_path
+hdl_sync_set_reset
+hdl_track_filename_row_col
+hdl_track_module_elab_memory_and_runtime
+hdl_unconnected_input_port_value
+hdl_undriven_output_port_value
+hdl_undriven_signal_value
+hdl_use_block_prefix
+hdl_use_cw_first
+hdl_use_default_parameter_values_in_design_name
+hdl_use_default_parameter_values_in_name
+hdl_use_for_generate_prefix
+hdl_use_if_generate_prefix
+hdl_use_parameterized_module_by_name
+hdl_use_port_default_value
+hdl_use_techelt_first
+hdl_user_name
+hdl_v2001
+hdl_verilog_defines
+hdl_vhdl_case
+hdl_vhdl_environment
+hdl_vhdl_lrm_compliance
+hdl_vhdl_preferred_architecture
+hdl_vhdl_read_version
+hdl_zero_replicate_is_null
+head
+height
+help
+help_always_visible
+hier_path
+hierarchical
+higher_drive
+highz
+hold_uncertainty_by_clock
+hookup_period
+horizontal_remaining
+id
+ideal
+ideal_driver
+ideal_network
+ideal_seq_async_pins
+ignore_external_driver_drc
+ignore_library_drc
+ignore_library_max_fanout
+ignore_preserve_in_tiecell_insertion
+ignore_scan_combinational_arcs
+incoming_timing_arcs
+incr_retime
+index
+infer_multibit
+information_level
+inherited_preserve
+init_core_utilization
+input
+input_assert_one_cold_pragma
+input_assert_one_hot_pragma
+input_asynchro_reset_blk_pragma
+input_asynchro_reset_pragma
+input_case_cover_pragma
+input_case_decode_pragma
+input_delay
+input_map_to_mux_pragma
+input_pragma_keyword
+input_synchro_enable_blk_pragma
+input_synchro_enable_pragma
+input_synchro_reset_blk_pragma
+input_synchro_reset_pragma
+input_threshold_pct_fall
+input_threshold_pct_rise
+inst_prefix
+instance
+instance_count
+instance_probability
+instances
+interconnect_mode
+internal
+inverted_phase
+inverted_sources
+inverter
+iopt_allow_tiecell_with_inversion
+iopt_avoid_tiecell_replacement
+iopt_enable_floating_output_check
+iopt_force_constant_removal
+iopt_sequential_duplication
+iopt_sequential_resynthesis
+iopt_sequential_resynthesis_min_effort
+iopt_ultra_optimization
+is_always_on
+is_clock_gating_cell
+is_exceptpgnet
+is_horizontal
+is_iq_function
+is_iqn_function
+is_isolation_cell
+is_level_shifter
+is_partial
+is_pushdown
+is_soft
+is_used
+is_user
+isolation_cell_enable_pin
+isolation_rule
+jtag_controlled
+jtag_instruction
+justify_by
+language
+latch
+latch_borrow
+latch_borrow_by_mode
+latch_enable
+latch_enable_phase
+latch_max_borrow
+latch_max_borrow_by_mode
+launcher
+layer
+layer_index
+layers
+lbr_seq_in_out_phase_opto
+leakage_power_scale_in_nW
+lec_executable
+lef_library
+lef_stop_on_error
+lef_units
+legal
+length
+lenient
+level_sensitive
+level_shifter_cells
+level_shifter_enable_pin
+level_shifter_rule
+lib_lef_consistency_check_enable
+lib_search_path
+libcell
+liberty_attributes
+libpin
+library
+library_domain
+library_domain_by_mode
+library_set
+line_number
+llx
+lly
+loads
+location
+location_x
+location_y
+logic_abstract
+logical_hier
+loop_breaker_is_ignored_for_all_modes
+lower_drive
+lp_asserted_probability
+lp_asserted_toggle_rate
+lp_clock_gating_add_obs_port
+lp_clock_gating_add_reset
+lp_clock_gating_auto_cost_grouping
+lp_clock_gating_auto_path_adjust
+lp_clock_gating_auto_path_adjust_fixed_delay
+lp_clock_gating_auto_path_adjust_modes
+lp_clock_gating_auto_path_adjust_multiplier
+lp_clock_gating_cell
+lp_clock_gating_control_point
+lp_clock_gating_exceptions_aware
+lp_clock_gating_exclude
+lp_clock_gating_extract_common_enable
+lp_clock_gating_hierarchical
+lp_clock_gating_infer_enable
+lp_clock_gating_max_flops
+lp_clock_gating_min_flops
+lp_clock_gating_module
+lp_clock_gating_prefix
+lp_clock_gating_style
+lp_clock_gating_test_signal
+lp_clock_tree_buffers
+lp_clock_tree_leaf_max_fanout
+lp_computed_probability
+lp_computed_toggle_rate
+lp_default_probability
+lp_default_toggle_percentage
+lp_default_toggle_rate
+lp_display_negative_internal_power
+lp_dynamic_analysis_scope
+lp_insert_clock_gating
+lp_insert_operand_isolation
+lp_internal_power
+lp_isolate_domain_crossing_constants
+lp_leakage_power
+lp_map_to_srpg_cells
+lp_map_to_srpg_type
+lp_multi_vt_optimization_effort
+lp_net_power
+lp_operand_isolation_prefix
+lp_power_analysis_effort
+lp_power_optimization_weight
+lp_power_unit
+lp_probability_type
+lp_pso_aware_estimation
+lp_pso_aware_tcf
+lp_srpg_pg_driver
+lp_toggle_rate_type
+lp_toggle_rate_unit
+lp_x_transition_probability_count
+lp_x_transition_toggle_count
+lp_z_transition_probability_count
+lp_z_transition_toggle_count
+lssd_master_clock
+macro
+map_latch_allow_async_decomp
+map_to_master_slave_lssd
+map_to_module
+map_to_multibit_bank_label
+map_to_multibit_register
+map_to_multiple_output_gates
+map_to_mux
+map_to_operator
+map_to_register
+master_signal
+master_slave_flop
+master_slave_lssd_flop
+max
+max_cap_cost
+max_capacitance
+max_dynamic_power
+max_fanout
+max_fanout_cost
+max_ground_input_voltage
+max_ground_output_voltage
+max_input_period
+max_input_voltage
+max_layer
+max_leakage_power
+max_length
+max_num_pulses
+max_output_period
+max_output_voltage
+max_print
+max_trans_cost
+max_transition
+mbist_instruction_set
+members
+memory_usage
+merge_multibit_power_area_based
+min_cap_cost
+min_capacitance
+min_domain_period
+min_fanout
+min_fanout_cost
+min_ground_input_voltage
+min_ground_output_voltage
+min_input_period
+min_input_voltage
+min_layer
+min_output_period
+min_output_voltage
+min_port_delay
+min_slew
+min_timing_arcs
+min_trans_cost
+min_transition
+mincuts
+minimize_uniquify
+mode_a
+mode_b
+mode_c
+mode_enable_high
+mode_enable_low
+mode_init
+mode_name
+model
+modtype
+module
+multibit_allow_async_phase_map
+multibit_cells_from_different_busses
+multibit_preserve_inferred_instances
+multibit_preserved_net_check
+multibit_seqs_instance_naming_style
+multibit_seqs_members_naming_style
+multibit_seqs_name_concat_string
+name
+nc_protect_version
+net
+net_area
+net_expr
+net_name
+network_early_latency_by_clock
+network_late_latency_by_clock
+non_inverted_sources
+non_seq_setup_arc
+num_drivers
+num_loads
+number_of_routing_layers
+obsolete
+obstruction_routing_layer
+off_domain
+off_state
+opcg_trigger
+opcode
+operating_condition
+operating_conditions
+operator
+optimize_constant_0_flops
+optimize_constant_0_seq
+optimize_constant_1_flops
+optimize_constant_1_seq
+optimize_constant_feedback_seq
+optimize_constant_latches
+optimize_merge_flops
+optimize_merge_latches
+optimize_merge_seq
+optimize_net_area
+optimize_seq_x_to
+optimize_yield
+order
+orient
+orientation
+origin
+original_name
+osc_source
+osc_source_period
+other_clocks
+outgoing_timing_arcs
+output
+output_threshold_pct_fall
+output_threshold_pct_rise
+output_value
+ovf_current_verification_directory
+ovf_mode
+ovf_verification_directory
+pad
+param_association
+parameters
+path
+path_count
+path_index
+path_value
+paths
+pattern
+pcells
+period
+permutable_group
+phys_checkout_encounter_license
+phys_fix_multi_height_cells
+phys_ignore_special_nets
+physical_cap
+physical_cell_area
+physical_del
+physical_res
+pin
+pin_association
+pin_capacitance
+pin_count
+pin_density
+pinmap
+pins
+pitch
+placement_status
+platform_wordsize
+polarity
+polygon
+polygons
+por
+port_delay
+ports
+power
+power_domain
+power_gating_cell
+power_gating_cell_type
+power_gating_pin_class
+power_gating_pin_phase
+power_library
+power_optimization_effort
+power_rails
+pqos_ignore_msv
+pqos_ignore_scan_chains
+pqos_placement_effort
+pre_elab_script
+precluded_path_adjusts
+preferred_comp
+preferred_impl
+prefix
+preroute_as_obstruction
+preserve
+preserve_techelts
+primitive_function
+print_count
+priority
+private
+process
+program_name
+program_short_name
+program_version
+propagate_constant_from_timing_model
+propagated_clocks
+propagated_clocks_by_mode
+propagated_ideal_network
+properties
+protected
+prune_unused_logic
+qos_report_power
+rail_connection
+real_enabled
+rectangles
+ref_clk_period
+ref_clock_pin
+reg_count
+region
+regions
+register
+register_capturedr
+register_clockdr
+register_decode
+register_reset
+register_reset_polarity
+register_runidle
+register_shiftdr
+register_shiftdr_polarity
+register_tck
+register_tdi
+register_tdo
+register_updatedr
+registers
+remove_assigns
+reorderable
+report_as_datapath
+reset
+resistance
+retime
+retime_async_reset
+retime_effort_level
+retime_hard_region
+retime_move_mux_loop_with_reg
+retime_optimize_reset
+retime_original_registers
+retime_reg_naming_suffix
+retime_verification_flow
+retiming_clocks
+return_port
+revised
+rf_slack
+rise
+rise_capacitance_range
+root_node
+root_source_pins
+root_source_polarity
+runidle
+runtime
+scale_of_cap_per_unit_length
+scale_of_res_per_unit_length
+scan_clock_a
+scan_clock_b
+scan_enable
+scan_enable_phase
+scan_in
+scan_in_phase
+scan_out
+scan_shift
+script_begin
+script_end
+script_search_path
+sdi_compression_signal
+sdp_files
+sdp_type
+secondary_domain
+segments
+selected_impl
+seq_reason_deleted
+sequential
+set_function
+settable
+setup_uncertainty_by_clock
+severity
+shared_output
+shared_select
+shift_capture
+shift_enable
+shift_launch
+shiftdr
+show_report_options
+show_wns_in_log
+shrink_factor
+shutoff_signal
+shutoff_signal_polarity
+signal_level
+signed
+sim_model
+size_fixed
+size_same
+skew_safe
+skip_value
+slack
+slack_by_mode
+slew
+slew_by_mode
+slew_derate_from_library
+slew_lower_threshold_pct_fall
+slew_lower_threshold_pct_rise
+slew_upper_threshold_pct_fall
+slew_upper_threshold_pct_rise
+source
+source_early_latency_by_clock
+source_late_latency_by_clock
+source_suspend_on_error
+source_verbose
+source_verbose_info
+source_verbose_proc
+sources
+spacing
+spec
+special
+speed_grade
+start
+start_source_line
+startpoint
+state
+statistics_db_file
+statistics_db_runtime
+statistics_log_data
+statistics_run_description
+statistics_run_id
+stdout_log
+step
+stop_at_iopt_state
+structural
+style
+sub_arch
+subdesign
+subscenarios
+super_thread_batch_command
+super_thread_kill_command
+super_thread_rsh_command
+super_thread_servers
+super_thread_status_command
+support_appending_libs
+symmetry
+sync_clear
+sync_clear_phase
+sync_enable
+sync_enable_phase
+sync_preset
+sync_preset_phase
+synthesis_off_command
+synthesis_on_command
+sys_enable
+sys_use
+systematic_probability
+tail
+tail_clock
+tail_clock_edge
+tap_decode
+tap_tdo
+target_period
+tck
+tcl_result_truncation_length
+tdi
+tdo
+tdo_enable
+technology
+temperature
+terminal_lockup
+test_modes
+test_use
+through_points
+tim_ignore_data_check_for_non_endpoint_pins
+time_recovery_arcs
+time_scale_in_ps
+timing_arcs
+timing_case_computed_value
+timing_case_computed_value_by_mode
+timing_case_disabled_arcs
+timing_case_disabled_arcs_by_mode
+timing_case_logic_value
+timing_case_logic_value_by_mode
+timing_disable_internal_inout_net_arcs
+timing_disable_non_sequential_checks
+timing_info
+timing_info_favor_startpoint
+timing_model
+timing_no_path_segmentation
+tms
+tns
+tns_by_mode
+tns_opto
+to_points
+to_power_domain
+tool_derived
+top_layer
+tr_bdy_in
+tr_cell
+trace_retime
+trcell_acmode
+trcell_clock
+trcell_enable
+tree_type
+trigger_delay
+tristate
+tristate_net_drivers
+tristate_net_load
+trst
+truncate
+tslk
+type
+ui_respects_preserve
+unbound_oper_pin
+undesirable_libcells
+ungroup
+ungroup_ok
+ungroup_separator
+unique_versions
+uniquify_naming_style
+units
+unmap_scan_flops
+unresolved
+updatedr
+urx
+ury
+usable
+usable_comb_cells
+usable_seq_cells
+usable_timing_models
+use
+use_area_from_lef
+use_multi_clks_latency_uncertainty_optimize
+use_multi_clks_latency_uncertainty_report
+use_multibit_cells
+use_multibit_combo_cells
+use_multibit_seq_and_tristate_cells
+use_nextstate_type_only_to_assign_sync_ctrls
+use_power_ground_pin_from_lef
+use_scan_seqs_for_non_dft
+use_tiehilo_for_const
+used
+user_created
+user_defined
+user_defined_macro
+user_defined_segment
+user_defined_signal
+user_differential_negative_pin
+user_from_core_data
+user_from_core_enable
+user_function
+user_priority
+user_speed_grade
+user_sub_arch
+user_test_receiver_acmode
+user_test_receiver_data_output
+user_test_receiver_init_clock
+user_test_receiver_init_data
+user_to_core_data
+user_to_core_enable
+utilization
+valid_location
+version
+vertical_remaining
+via_resistance
+viarule_name
+viarules
+vias
+visible
+voltage
+voltage_range
+wccd_threshold_percentage
+wcdc_clock_dom_comb_propagation
+wcdc_synchronizer_type
+wclp_lib_statetable
+weight
+width
+wire_capacitance
+wire_length
+wire_resistance
+wireload
+wireload_mode
+wireload_model
+wireload_selection
+within_hierarchy
+wlec_add_noblack_box_retime_subdesign
+wlec_analyze_abort
+wlec_analyze_setup
+wlec_auto_analyze
+wlec_compare_threads
+wlec_cut_point
+wlec_hier_comp_threshold
+wlec_lib_statetable
+wlec_parallel_threads
+wlec_set_cdn_synth_root
+wlec_uniquify
+wlec_use_lec_model
+wrapper_control
+wrapper_segment
+write_sv_port_wrapper
+write_vlog_bit_blast_bus_connections
+write_vlog_bit_blast_constants
+write_vlog_bit_blast_mapped_ports
+write_vlog_bit_blast_tech_cell
+write_vlog_convert_onebit_vector_to_scalar
+write_vlog_declare_wires
+write_vlog_empty_module_for_black_box
+write_vlog_empty_module_for_logic_abstract
+write_vlog_empty_module_for_subdesign
+write_vlog_generic_gate_define
+write_vlog_line_wrap_limit
+write_vlog_no_negative_index
+write_vlog_port_association_style
+write_vlog_preserve_net_name
+write_vlog_top_module_first
+write_vlog_unconnected_port_style
+write_vlog_wor_wand
+x_offset
+xbottom_enclosure
+xbottom_offset
+xcut_size
+xcut_spacing
+xorigin_offset
+xtop_enclosure
+xtop_offset
+y_offset
+ybottom_enclosure
+ybottom_offset
+ycut_size
+ycut_spacing
+yield
+yorigin_offset
+ytop_enclosure
+ytop_offset
+
+" Built-in Variables "
+
+" Commands "
+::all::all  -h
+::all::all_bufs 
+::all::all_des  -h
+::all::all_inps  -clock -clock_domains
+::all::all_insts  -unresolved
+::all::all_lib  -h
+::all::all_outs  -clock -clock_domains
+::all::all_seqs  -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -slave_clock_pins
+::all::all_ties  -hi -hilo -lo
+::all::collect_ms_flops 
+::all::filter_ports 
+::all::find_instance_startpoints  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+::dc::add_to_collection  -unique
+::dc::all_clocks 
+::dc::all_fanin  -flat -levels -only_cells -startpoints_only -to
+::dc::all_fanout  -endpoints_only -flat -from -levels -only_cells
+::dc::all_inputs  -clock -edge_triggered -level_sensitive -no_clocks
+::dc::all_outputs  -clock -edge_triggered -level_sensitive
+::dc::all_registers  -async_pins -cells -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -fall_clock -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -rise_clock -slave_clock_pins
+::dc::append_to_collection  -unique
+::dc::check_override 
+::dc::compare_collection  -order_dependent
+::dc::copy_collection 
+::dc::create_clock  -add -apply_inverted -domain -name -period -waveform
+::dc::create_generated_clock  -add -apply_inverted -combinational -divide_by -domain -duty_cycle -edge_shift -edges -invert -master_clock -multiply_by -name -source
+::dc::current_design 
+::dc::current_instance 
+::dc::filter_collection 
+::dc::foreach_in_collection 
+::dc::get_cell  -filter -hierarchical -hsc -nocase -of_objects -regexp
+::dc::get_cells  -filter -hierarchical -hsc -nocase -of_objects -regexp
+::dc::get_clock  -filter -hsc -nocase -regexp
+::dc::get_clocks  -filter -hsc -nocase -regexp
+::dc::get_design  -filter
+::dc::get_designs  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+::dc::get_generated_clocks  -filter -nocase -quiet -regexp
+::dc::get_lib  -filter -nocase -regexp
+::dc::get_lib_cell  -filter -hsc -nocase -of_objects -quiet -regexp
+::dc::get_lib_cells 
+::dc::get_lib_pin  -filter -hsc -nocase -of_objects -quiet -regexp
+::dc::get_lib_pins  -filter -hsc -nocase -of_objects -quiet -regexp
+::dc::get_lib_timing_arcs  -filter -from -of_objects -to
+::dc::get_libs  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+::dc::get_net  -filter -hierarchical -hsc -nocase -of_objects -regexp
+::dc::get_nets 
+::dc::get_object_name 
+::dc::get_path_groups  -filter -nocase -quiet -regexp
+::dc::get_pin  -filter -hierarchical -hsc -nocase -of_objects -regexp
+::dc::get_pins  -times
+::dc::get_port  -filter -nocase -of_objects -regexp
+::dc::get_ports  -filter -nocase -of_objects -regexp
+::dc::getenv 
+::dc::group_path  -critical_range -default -exception_name -fall -fall_from -fall_through -fall_to -from -hold -name -rise -rise_from -rise_through -rise_to -setup -through -to -weight
+::dc::index_collection  -index
+::dc::remove_clock_gating_check  -fall -high -hold -low -rise -setup
+::dc::remove_clock_latency  -clock -source
+::dc::remove_disable_clock_gating_check  -fall -high -hold -low -rise -setup
+::dc::remove_from_collection 
+::dc::remove_generated_clock  -all
+::dc::remove_ideal_net 
+::dc::remove_ideal_network 
+::dc::remove_input_delay  -clock
+::dc::remove_output_delay  -clock
+::dc::set_case_analysis 
+::dc::set_clock_gating_check  -fall -high -hold -low -rise -setup
+::dc::set_clock_groups  -allow_paths -asynchronous -logically_exclusive -name -physically_exclusive
+::dc::set_clock_latency  -clock -early -fall -late -max -min -rise -source
+::dc::set_clock_sense  -clocks -negative -positive -pulse -stop_propagation
+::dc::set_clock_skew  -minus_uncertainty -plus_uncertainty
+::dc::set_clock_transition  -fall -max -min -rise
+::dc::set_clock_uncertainty  -clock -fall -fall_from -fall_to -from -from_edge -hold -rise -rise_from -rise_to -setup -to -to_edge
+::dc::set_data_check  -clock -fall_from -fall_to -from -hold -rise_from -rise_to -setup -to
+::dc::set_disable_clock_gating_check  -fall -high -hold -low -rise -setup
+::dc::set_disable_timing  -from -to
+::dc::set_dont_touch 
+::dc::set_dont_touch_network  -no_propagate
+::dc::set_dont_use 
+::dc::set_drive  -fall -max -min -rise
+::dc::set_driving_cell  -cell -clock -clock_fall -dont_scale -fall -from_pin -input_transition_fall -input_transition_rise -lib_cell -library -max -min -multiply_by -no_design_rule -pin -rise
+::dc::set_equal 
+::dc::set_false_path  -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -through -to
+::dc::set_fanout_load 
+::dc::set_hierarchy_separator 
+::dc::set_ideal_net 
+::dc::set_ideal_network  -no_propagate
+::dc::set_input_delay  -add_delay -clock -clock_fall -clock_rise -fall -level_sensitive -max -min -name -network_latency_included -rise -source_latency_included
+::dc::set_input_transition  -clock -clock_fall -fall -max -min -rise
+::dc::set_lib_pin  -max_capacitance -max_fanout -max_transition
+::dc::set_lib_pins 
+::dc::set_load  -max -min -pin_load -subtract_pin_load -wire_load
+::dc::set_load_unit  -femtofarads -picofarads
+::dc::set_logic_dc 
+::dc::set_logic_one 
+::dc::set_logic_zero 
+::dc::set_max_capacitance 
+::dc::set_max_delay  -exception_name -fall -fall_from -fall_through -fall_to -from -rise -rise_from -rise_through -rise_to -through -to
+::dc::set_max_dynamic_power 
+::dc::set_max_fanout 
+::dc::set_max_leakage_power 
+::dc::set_max_time_borrow 
+::dc::set_max_transition 
+::dc::set_min_delay  -exception_name -fall -fall_from -fall_through -fall_to -from -rise -rise_from -rise_through -rise_to -through -to
+::dc::set_multicycle_path  -end -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -start -through -to
+::dc::set_operating_conditions 
+::dc::set_opposite 
+::dc::set_output_delay  -add_delay -clock -clock_fall -clock_rise -fall -level_sensitive -max -min -name -network_latency_included -rise -source_latency_included
+::dc::set_path_adjust  -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -through -to
+::dc::set_port_fanout_number 
+::dc::set_time_unit  -nanoseconds -picoseconds
+::dc::set_timing_derate  -cell_check -cell_delay -clock -data -early -late -net_delay
+::dc::set_unconnected 
+::dc::set_units  -capacitance -current -power -resistance -time -voltage
+::dc::set_wire_load_mode  -lock -quiet
+::dc::set_wire_load_model  -library -max -min -name
+::dc::set_wire_load_selection_group  -library -max -min -object_list
+::dc::sizeof_collection 
+::dc::sort_collection  -descend
+? 
+PS_run_synthesis_PS 
+add_command_help 
+add_cpf_pins_to_iso_rule  -isolation_rule -pins
+add_cpf_pins_to_ls_rule  -level_shifter_rule -pins
+add_exclude_pins_to_iso_rule  -isolation_rule -pins
+add_exclude_pins_to_ls_rule  -level_shifter_rule -pins
+add_filler_boxes 
+add_ga_libcells 
+add_mds_for_preserve_pins 
+add_opcg_hold_mux  -edge_mode -instance
+add_physical_instance 
+add_spare_gates  -prio_patch -priority
+add_spare_libcell 
+add_stats_db_skip_proc 
+add_to_collection  -unique
+after 
+alias 
+all  -h
+all des inps  -clock -clock_domains
+all des insts  -unresolved
+all des outs  -clock -clock_domains
+all des seqs  -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -slave_clock_pins
+all des subcommand  -h
+all lib subcommand  -h
+all lib ties  -hi -hilo -lo
+all subcommand  -h
+all::all  -h
+all::all_bufs 
+all::all_des  -h
+all::all_inps  -clock -clock_domains
+all::all_insts  -unresolved
+all::all_lib  -h
+all::all_outs  -clock -clock_domains
+all::all_seqs  -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -slave_clock_pins
+all::all_ties  -hi -hilo -lo
+all::collect_ms_flops 
+all::filter_ports 
+all::find_instance_startpoints  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+all_bufs 
+all_clocks 
+all_connected  -leaf_pin
+all_des  -h
+all_fanin  -flat -levels -only_cells -startpoints_only -to
+all_fanout  -endpoints_only -flat -from -levels -only_cells
+all_inps  -clock -clock_domains
+all_inputs  -clock -design -edge_triggered -level_sensitive -no_clocks
+all_insts  -unresolved
+all_lib  -h
+all_outputs  -clock -design -edge_triggered -level_sensitive
+all_outs  -clock -clock_domains
+all_physical_nets 
+all_registers  -async_pins -cells -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -fall_clock -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -rise_clock -slave_clock_pins
+all_seqs  -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -slave_clock_pins
+all_ties  -hi -hilo -lo
+analyze_library_corners  -buffer_libcell -cpf -fanin -fanout -libraries
+analyze_scan_compressibility  -atpg_options -build_faultmodel_options -build_model_options -build_testmode_options -chains -compressor -decompressor -directory -dont_run_atpg -effort -fault_sample_size -library -mask -minimum_scanned_flop_percentage -ratio_list -serial_misr_read -verbose -verify_test_structures_options
+analyze_testability  -atpg_options -build_faultmodel_options -build_model_options -build_testmode_options -directory -effort -et_log -fault_sample_size -library
+append 
+append_to_collection  -unique
+apply_iso_rule_on_pins  -isolation_rule -pins
+apply_ls_rule_on_pins  -level_shifter_rule -pins
+apropos  -skip_attributes -skip_commands -skip_help
+array anymore donesearch exists get names nextelement set size startsearch statistics unset
+auto_execok 
+auto_import 
+auto_load 
+auto_load_index 
+auto_ls_create 
+auto_ls_delete 
+auto_mkindex 
+auto_mkindex_old 
+auto_partition_gdef_int  -directory -dont_hide_hierarchies -no_horizontal -num_sets
+auto_partition_graph  -assert -dump -num_sets
+auto_qualify 
+auto_reset 
+auto_ungroup 
+basename 
+bell 
+bfn_internal_test 
+bgerror 
+binary 
+bind 
+bindtags 
+bitblast_all_ports 
+bitblast_port 
+box_closest_points  -center -overlap -uu
+box_inside_die  -design
+box_overlap  -area -box
+break 
+break_by_mode_insts 
+bsr_order_physically_internal  -anchor -tdi
+build_rtl_power_models  -clean_up_netlist -clock_gating_logic -design -relative
+button 
+cadence 
+cadence_big 
+calibrate_3G_runtime  -iterations
+can_merge_interface_files  -pt_file1 -pt_file2
+canvas 
+case 
+catch  -code
+cd 
+cdn_flop_pin_name 
+cdn_latch_pin_name 
+cdnshelp 
+cdsdoc 
+cell_move 
+cg_xor_gating 
+cg_xor_gating_remove 
+chan  -blocking -buffering -buffersize -encoding -eofchar -translation
+change_link  -change_in_non_uniq_subd -design_name -instances -lenient -libcell -no_name_change -pin_map -retain_exceptions
+change_names  -allowed -append_log -case_insensitive -check_internal_net_name -collapse_name_space -design -dummy_net_prefix -first_restricted -force -instance -last_restricted -local -log_changes -lowertoupper -map -max_length -name_collision -net -port_bus -prefix -regexp -replace_str -reserved_words -restricted -subdesign -subport_bus -suffix -system_verilog -uppertolower -verilog -vhdl
+change_test_clock_source  -newpin -oldpin -test_clock
+check_atpg_rules  -compression -directory -library
+check_cpf  -all -continue_on_error -detail -isolation -level_shifter -license -retention
+check_design  -all -assigns -constant -lib_lef_consistency -multidriven -preserved -report_scan_pins -threshold_fanout -undriven -unloaded -unresolved -vname
+check_dft_pad_configuration 
+check_dft_pad_direction  -port_direction
+check_dft_rules  -advanced -dft_configuration_mode -max_print_fanin -max_print_registers -max_print_violations
+check_display 
+check_interface_files  -flow_type -instance -org_pt_file -pt_file
+check_library  -isolation_cell -level_shifter_cell -libcell -library_domain -retention_cell
+check_mbist_rules  -design -dft_configuration_mode -direct_access_only -interface_file_dirs
+check_override 
+check_physical_library  -set_avoid
+check_physical_net 
+check_placement  -file -verbose
+check_snet_components  -reset
+check_syntax  -quiet
+checkbutton 
+checkin 
+checkout 
+checksum_lictoken 
+cle_tty_puts 
+cle_tty_read_char 
+clean_interface_files_data 
+clear 
+clipboard 
+clock 
+clock_gating  -h
+clock_gating subcommand  -h
+clock_ports 
+clock_schedule  -effort -max_latency -min_latency -use_retime_bounds
+clock_uncertainty  -clock -fall -fall_from -fall_to -from -from_edge -hold -rise -rise_from -rise_to -setup -to -to_edge
+close 
+closest_unblocked_point  -design -dir -fence -nodesign -x -y
+collect_ms_flops 
+commit 
+commit_cpf  -isolation_cell_only -level_shifter_only
+compare_collection  -order_dependent
+compare_sdc  -design -detail -golden_sdc -logfile -netlist -revised_sdc -rtl
+compress_block_level_chains  -chains -channel_length -compressor -decompressor -inside -mask -mask_sharing_ratio -power_aware -preview -ratio -target_period
+compress_exceptions  -no_replace
+compress_scan_chains  -allow_multiple_jtag_control -allow_shared_clocks -apply_timing_constraints -auto_create -chains -channel_length -compression_enable -compressor -create_mask_or_misr_chain -decompressor -dont_exploit_bidi_scanio -inside -jtag_control_instruction -low_pin_compression -lpc_control -mask -mask_clock -mask_enable -mask_load -mask_or_misr_sdi -mask_or_misr_sdo -mask_sharing_ratio -master_control -misr_bypass -misr_clock -misr_observe -misr_read -misr_reset_clock -misr_reset_enable -misr_shift_enable -power_aware -preview -ratio -serial_misr_read -share_mask_enable_with_scan_in -shared_output -shift_enable -spread_enable -target_period -timing_mode_names -use_all_scan_ios_unidirectionally -write_timing_constraints
+compute_optimized_wire_delay  -design
+concat 
+concat_scan_chains  -chains -dft_configuration_mode -name -preview
+concat_scan_chains_int  -chains -dft_configuration_mode -name -preview
+configure_pad_dft  -mode -test_control
+cong 
+connect 
+connect_compression_clocks  -mask_clock -misr_clock
+connect_opcg_segments  -chains -preview
+connect_scan_chains  -auto_create_chains -chains -create_empty_chains -dft_configuration_mode -dont_exceed_min_number_of_scan_chains -elements -incremental -keep_connected_SE -pack -physical -power_domain -preview -update_placement
+connect_scan_chains_int  -auto_create_chains -chains -create_empty_chains -dft_configuration_mode -dont_exceed_min_number_of_scan_chains -elements -incremental -keep_connected_SE -pack -physical -power_domain -preview
+constraint_between_clocks  -ideal
+continue 
+copy_attributes 
+copy_collection 
+cpf_create_nominal_condition  -design -name -voltage
+cpf_create_power_domain  -design -name
+cpf_create_power_ground_nets  -domain -ground -internal -name -power -rail_connection
+cpf_remove_nominal_condition  -nominal_conditions
+create_blockage  -density -design -hx -hy -lx -ly
+create_clock  -add -apply_inverted -domain -name -period -waveform
+create_cpf_command  -design -name
+create_cpf_command_id  -cpf_command -id
+create_cpf_power_mode  -default -design -name
+create_elt_model  -clock_name -ctos -design -library -name
+create_flexfiller_lef  -design -file -top
+create_flexmodel  -file
+create_generated_clock  -add -apply_inverted -combinational -divide_by -domain -duty_cycle -edge_shift -edges -invert -master_clock -multiply_by -name -source
+create_group  -design -region
+create_hdl_library 
+create_iso_rule  -cells -cpf_pins -enable_driver -enable_polarity -exclude_pins -from_power_domain -location -name -off_domain -open_source_pins_only -output_value -scope -secondary_domain -to_power_domain -within_hierarchy
+create_library_domain 
+create_ls_rule  -cells -cpf_pins -direction -exclude_pins -from_power_domain -location -name -scope -threshold -to_power_domain -within_hierarchy
+create_mode  -default -design -name
+create_mst  -ignore_driver_loc -verbose
+create_multibit_cell  -force -to
+create_physical_instances  -level
+create_placement_blockage  -boxes -component -density -design -partial -pushdown -soft
+create_placement_halo_blockage  -bottom -left -right -soft -top
+create_power_ground_nets  -domain -ground -internal -name -power -rail_connection
+create_region  -boxes -design -fence -guide
+create_routing_blockage  -boxes -component -design -fills -layer -pushdown -slots
+create_routing_halo_blockage  -distance -max_layer -min_layer
+create_row  -design -height -llx -lly -macro -orientation -width
+create_tmodel  -input_busses -internal_busses -name -output_busses
+critical_drivers  -cost_group -dont_generate_list -slack_margin
+ctp_init 
+ctp_map 
+ctp_partition  -all_sources
+ctp_synth  -dont_touch_existing -no_new_enables
+current_design 
+current_instance 
+cwd  -h
+cwd subcommand  -h
+data_check  -clock -fall_from -fall_to -from -rise_from -rise_to -setup -to
+date 
+dc::add_to_collection  -unique
+dc::all_clocks 
+dc::all_fanin  -flat -levels -only_cells -startpoints_only -to
+dc::all_fanout  -endpoints_only -flat -from -levels -only_cells
+dc::all_inputs  -clock -edge_triggered -level_sensitive -no_clocks
+dc::all_outputs  -clock -edge_triggered -level_sensitive
+dc::all_registers  -async_pins -cells -clock -clock_domains -clock_pins -data_pins -edge_triggered -exclude -fall_clock -inverted_output -level_sensitive -master_slave -no_hierarchy -output_pins -rise_clock -slave_clock_pins
+dc::append_to_collection  -unique
+dc::check_override 
+dc::compare_collection  -order_dependent
+dc::copy_collection 
+dc::create_clock  -add -apply_inverted -domain -name -period -waveform
+dc::create_generated_clock  -add -apply_inverted -combinational -divide_by -domain -duty_cycle -edge_shift -edges -invert -master_clock -multiply_by -name -source
+dc::current_design 
+dc::current_instance 
+dc::filter_collection 
+dc::foreach_in_collection 
+dc::get_cell  -filter -hierarchical -hsc -nocase -of_objects -regexp
+dc::get_cells  -filter -hierarchical -hsc -nocase -of_objects -regexp
+dc::get_clock  -filter -hsc -nocase -regexp
+dc::get_clocks  -filter -hsc -nocase -regexp
+dc::get_design  -filter
+dc::get_designs  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+dc::get_generated_clocks  -filter -nocase -quiet -regexp
+dc::get_lib  -filter -nocase -regexp
+dc::get_lib_cell  -filter -hsc -nocase -of_objects -quiet -regexp
+dc::get_lib_cells 
+dc::get_lib_pin  -filter -hsc -nocase -of_objects -quiet -regexp
+dc::get_lib_pins  -filter -hsc -nocase -of_objects -quiet -regexp
+dc::get_lib_timing_arcs  -filter -from -of_objects -to
+dc::get_libs  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+dc::get_net  -filter -hierarchical -hsc -nocase -of_objects -regexp
+dc::get_nets 
+dc::get_object_name 
+dc::get_path_groups  -filter -nocase -quiet -regexp
+dc::get_pin  -filter -hierarchical -hsc -nocase -of_objects -regexp
+dc::get_pins  -times
+dc::get_port  -filter -nocase -of_objects -regexp
+dc::get_ports  -filter -nocase -of_objects -regexp
+dc::getenv 
+dc::group_path  -critical_range -default -exception_name -fall -fall_from -fall_through -fall_to -from -hold -name -rise -rise_from -rise_through -rise_to -setup -through -to -weight
+dc::index_collection  -index
+dc::remove_clock_gating_check  -fall -high -hold -low -rise -setup
+dc::remove_clock_latency  -clock -source
+dc::remove_disable_clock_gating_check  -fall -high -hold -low -rise -setup
+dc::remove_from_collection 
+dc::remove_generated_clock  -all
+dc::remove_ideal_net 
+dc::remove_ideal_network 
+dc::remove_input_delay  -clock
+dc::remove_output_delay  -clock
+dc::set_case_analysis 
+dc::set_clock_gating_check  -fall -high -hold -low -rise -setup
+dc::set_clock_groups  -allow_paths -asynchronous -logically_exclusive -name -physically_exclusive
+dc::set_clock_latency  -clock -early -fall -late -max -min -rise -source
+dc::set_clock_sense  -clocks -negative -positive -pulse -stop_propagation
+dc::set_clock_skew  -minus_uncertainty -plus_uncertainty
+dc::set_clock_transition  -fall -max -min -rise
+dc::set_clock_uncertainty  -clock -fall -fall_from -fall_to -from -from_edge -hold -rise -rise_from -rise_to -setup -to -to_edge
+dc::set_data_check  -clock -fall_from -fall_to -from -hold -rise_from -rise_to -setup -to
+dc::set_disable_clock_gating_check  -fall -high -hold -low -rise -setup
+dc::set_disable_timing  -from -to
+dc::set_dont_touch 
+dc::set_dont_touch_network  -no_propagate
+dc::set_dont_use 
+dc::set_drive  -fall -max -min -rise
+dc::set_driving_cell  -cell -clock -clock_fall -dont_scale -fall -from_pin -input_transition_fall -input_transition_rise -lib_cell -library -max -min -multiply_by -no_design_rule -pin -rise
+dc::set_equal 
+dc::set_false_path  -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -through -to
+dc::set_fanout_load 
+dc::set_hierarchy_separator 
+dc::set_ideal_net 
+dc::set_ideal_network  -no_propagate
+dc::set_input_delay  -add_delay -clock -clock_fall -clock_rise -fall -level_sensitive -max -min -name -network_latency_included -rise -source_latency_included
+dc::set_input_transition  -clock -clock_fall -fall -max -min -rise
+dc::set_lib_pin  -max_capacitance -max_fanout -max_transition
+dc::set_lib_pins 
+dc::set_load  -max -min -pin_load -subtract_pin_load -wire_load
+dc::set_load_unit  -femtofarads -picofarads
+dc::set_logic_dc 
+dc::set_logic_one 
+dc::set_logic_zero 
+dc::set_max_capacitance 
+dc::set_max_delay  -exception_name -fall -fall_from -fall_through -fall_to -from -rise -rise_from -rise_through -rise_to -through -to
+dc::set_max_dynamic_power 
+dc::set_max_fanout 
+dc::set_max_leakage_power 
+dc::set_max_time_borrow 
+dc::set_max_transition 
+dc::set_min_delay  -exception_name -fall -fall_from -fall_through -fall_to -from -rise -rise_from -rise_through -rise_to -through -to
+dc::set_multicycle_path  -end -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -start -through -to
+dc::set_operating_conditions 
+dc::set_opposite 
+dc::set_output_delay  -add_delay -clock -clock_fall -clock_rise -fall -level_sensitive -max -min -name -network_latency_included -rise -source_latency_included
+dc::set_path_adjust  -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -through -to
+dc::set_port_fanout_number 
+dc::set_time_unit  -nanoseconds -picoseconds
+dc::set_timing_derate  -cell_check -cell_delay -clock -data -early -late -net_delay
+dc::set_unconnected 
+dc::set_units  -capacitance -current -power -resistance -time -voltage
+dc::set_wire_load_mode  -lock -quiet
+dc::set_wire_load_model  -library -max -min -name
+dc::set_wire_load_selection_group  -library -max -min -object_list
+dc::sizeof_collection 
+dc::sort_collection  -descend
+debug_pad 
+decode_lictoken 
+decode_stack 
+decommit_oi 
+decongest  -instances -update_congestion_map_options
+decrypt  -keydb
+dedicate_subdesign 
+def_attributes_readable  -design -reset
+def_attributes_writable  -reset
+def_move  -highlight -initialize -min_distance
+define_attribute  -category -check_function -compute_function -data_type -default_value -help_string -hidden -more_help_string -obj_type -obsolete -set_function -skip_in_db
+define_aux_scan_clock  -configure_pad -create_port -divide_fall -divide_period -divide_rise -fall -hookup_pin -hookup_polarity -name -no_ideal -period -rise
+define_boundary_segment  -bsdl_file -bsdl_string -capturedr -clockdr -differential_pair -differentials -highz -index -instance -libcell -mode_a -mode_b -mode_c -module -name -shiftdr -tdi -tdo -updatedr
+define_clock  -design -divide_fall -divide_period -divide_rise -domain -fall -mode -name -period -rise
+define_clock_domain  -design -mode -name
+define_compression_segment  -clock_port -fall -hookup_sdi -length -name -rise -sdi -sdo -skew_safe -tail_clock_port -tail_edge_fall -tail_edge_rise
+define_cost_group  -design -name -weight
+define_dft  -h
+define_dft subcommand  -h
+define_dft tap_port  -create_port -hookup_pin -hookup_polarity -type
+define_level_shifter_group  -from_library_domain -libcells -name -to_library_domain
+define_opcg_mode  -design -jtag_controlled -mode_init -name -osc_source_parameters
+define_proc_attributes boolean float int list merge_duplicates one_of_string optional remainder required string value_help values
+define_scan_segment  -active -allow_reordering -analyze -clock_port -connected_scan_clock_a -connected_scan_clock_b -connected_shift_enable -dft_configuration_mode -end_flop -fall -instance -length -libcell -module -name -off_state -other_clock_edge -other_clock_off_state -other_clock_port -rise -scan_clock_a_port -scan_clock_b_port -sdi -sdo -shift_enable_port -skew_safe -start_flop -tail_clock_off_state -tail_clock_port -tail_edge_fall -tail_edge_rise -test_mode_active -test_mode_port -type
+define_tap_port  -create_port -hookup_pin -hookup_polarity -type
+defungulate_gdef 
+delete 
+delete_unloaded_undriven  -all -disconnect -force_bit_blast
+derive_environment  -name -sdc_only
+derive_opcg_logic_bits  -opcg_domain -opcg_trigger -osc_source -sdi -sdo
+design_info_for_parallel_synthesis 
+design_needs_two_step_verification 
+design_rules 
+destroy 
+dft_configuration_mode 
+dft_feasible_connection  -or_self
+dft_get_flat_view 
+dft_propagate_constants 
+dft_trace_back  -continue -mode -polarity -print
+dict 
+dirname  -times
+dirs 
+disconnect 
+do_with_constant_dft_setup  -design -set_high -set_low
+domain_macro_parameters 
+dontm 
+drc 
+dstate_annotated 
+dstate_mapped 
+duplicate_flop  -design -pre_iopt_setup -verbose
+echo 
+eco_finalize 
+edit 
+edit_netlist  -h
+edit_netlist bitblast_all_ports 
+edit_netlist connect  -net_name
+edit_netlist dedicate_subdesign 
+edit_netlist disconnect 
+edit_netlist group  -group_name
+edit_netlist new_design  -name -quiet
+edit_netlist new_instance  -name -quiet
+edit_netlist new_port_bus  -input -left_bit -name -output -right_bit
+edit_netlist new_primitive  -inputs -name -quiet
+edit_netlist new_subport_bus  -input -left_bit -name -output -right_bit
+edit_netlist subcommand  -h
+edit_netlist ungroup  -prefix
+edit_netlist uniquify  -verbose
+editd 
+elaborate  -libext -libpath -parameters
+else 
+elseif 
+enable_eco_infra  -phys
+enable_transparent_latches 
+encoding 
+encrypt  -pragma -tcl -vhdl -vlog
+entry 
+eof 
+error  -errorcode
+eval 
+event 
+exec  -ignorestderr -keepnewline
+exec_embedded_script  -design -subdesign
+exit 
+export_critical_endpoints  -design -fe_file -group -no_group -no_of_bins -percentage_difference -percentage_of_endpoints -rc_file -rtl -verbose
+expr abs acos asin atan atan2 ceil cos cosh double exp floor fmod hypot int log log10 pow round sin sinh sqrt tan tanh
+external_delay  -accumulate -clock -edge_fall -edge_rise -input -level_sensitive -mode -name -output
+extract_satsweep 
+fanin  -gui -max_logic_depth -max_pin_depth -min_logic_depth -min_pin_depth -startpoints -structural -vname
+fanout  -endpoints -gui -max_logic_depth -max_pin_depth -min_logic_depth -min_pin_depth -structural -vname
+fblocked 
+fconfigure  -blocking -buffering -buffersize -encoding -eofchar -translation
+fcopy  -encoding
+feature 
+file  -force atime attributes channels copy delete dirname executable exists extension isdirectory isfile join link lstat mkdir mtime nativename normalize owned pathtype readable readlink rename rootname separator size split stat system tail type volumes writable
+fileevent 
+filter  -invert -regexp -special -vname
+filter_collection 
+filter_constrained_pins 
+filter_instances_from_hier  -address -name -value
+filter_leaf_instances  -address -design -invert -name -value
+filter_ports 
+finalize_tmodel 
+find  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+find_instance_startpoints  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+find_interface_files_for_instance  -continue_mbist -diagnose_mbist -diagnose_rombist -pt_file -read_mbist -run_mbist
+fix_dft_violations  -async_control -async_reset -async_set -clock -design -dont_check_dft_rules -dont_map -exclude_xsource -fall -insert_observe_scan -preview -rise -test_clock_pin -test_control -tristate_net -violations -xsource
+fix_dft_violations_int  -async_control -async_reset -async_set -clock -design -dont_check_dft_rules -dont_map -exclude_xsource -fall -insert_observe_scan -preview -rise -test_clock_pin -test_control -tristate_net -violations -xsource
+fix_scan_outs_for_lockups 
+fix_scan_path_inversions 
+fix_scan_path_inversions_internal 
+fliph 
+flipv 
+floorplan_buf  -critical_path -drivers -verbose
+flush 
+focus 
+font 
+fopt  -dont_derenv -dont_uniquify
+for 
+foreach 
+foreach_in_collection 
+format 
+fplan 
+frame 
+gbf_complex_build  -allow_2level -mux_decode_only
+gbf_eliminate  -d -l -t -v
+gbf_redrem  -p
+gbf_resub  -do_not_use_complement -maintain_slack
+gbf_simplify  -dissolve_muxes
+gbf_split  -t
+gbf_structure_preserve  -no_complex
+gcell 
+gdef_dis 
+gdef_to_bdd_to_gdef 
+generate_constraints  -dfpgen -fpgen -in_sdc -logfile -netlist -out_sdc -report -rtl -slack -trv
+generate_lictoken  -capability -id -version
+generate_ple_model  -outfile
+generate_reports  -encounter -outdir -tag
+get_all_attributes 
+get_attr 
+get_attr_using_address 
+get_attribute 
+get_attribute_categories  -tcl_list -type -vdir
+get_attribute_info  -attribute -category -tcl_list -type -vdir
+get_attribute_list  -categories -detail -hidden
+get_attribute_names 
+get_attribute_status  -path -type
+get_box_enclosing_point  -design -nodesign -x -y
+get_cell  -filter -hierarchical -hsc -nocase -of_objects -regexp
+get_cell_delay 
+get_cells  -filter -hierarchical -hsc -nocase -of_objects -regexp
+get_clock  -filter -hsc -nocase -regexp
+get_clock_tree_topology 
+get_clocks  -filter -hsc -nocase -regexp
+get_cluster_area  -design -index
+get_cluster_data  -design
+get_cluster_radius  -design -index
+get_compression_ip  -asym_chains_in -asym_chains_out -bitwise_compressor -block_select -chains -comp_type -compression -decompression -dedicated_mask_clock -file -fullscan_muxing -gate_inputs -gate_outputs -info_file -jtag_control -mask -max_parity -min_parity -misr_obs -misr_reset_clock -odd_parity -order -repeat -share_mask_enable_with_scan_in -shared_control_pins -smartscan_pulse_width_multiplier -smartscan_ratio -smartscan_serial_only -smartscan_update_stage -spreader -sub_chains
+get_core_hookup_pin  -polarity -test_signal
+get_cut_blockages  -layer_name -llx -lly -placement -routing -urx -ury
+get_data_for_from_to_pins 
+get_def_group_name  -design
+get_def_region_name 
+get_design  -filter
+get_designs  -filter -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+get_element_scan_pin  -index -scan_out
+get_elt_model_arcs  -load_in_ff
+get_fence_enclosing_point  -design -x -y
+get_gcell_avoid_libcells  -design
+get_gcell_info  -design -x -y
+get_gcell_neighbor  -design -end_level -start_level
+get_gcell_power_tracks  -design
+get_gcells_in_bbox  -design -hx -hy -lx -ly
+get_generated_clocks  -filter -nocase -quiet -regexp
+get_gints_in_bbox  -design -hx -hy -lx -ly
+get_gints_in_congested_region 
+get_illegal_placed_instances  -design
+get_instance_padding 
+get_instances_from_hier  -address -address -hier_only -include_hier
+get_isomux_pins  -cell
+get_layer_utilization  -index -name
+get_leaf_instances  -address -cover -design -fixed -mapped -physical -placed -unmapped -unplaced
+get_leaves_from_driver 
+get_lib  -filter -nocase -regexp
+get_lib_cell  -filter -hsc -nocase -of_objects -quiet -regexp
+get_lib_cells  -filter -hsc -nocase -of_objects -quiet -regexp
+get_lib_pin  -filter -hsc -nocase -of_objects -quiet -regexp
+get_lib_pins  -filter -hsc -nocase -of_objects -quiet -regexp
+get_lib_timing_arcs  -filter -from -of_objects -to
+get_liberty_attribute 
+get_libs  -filter -ignorecase -maxdepth -mindepth -nocase -option* -regexp -split -vname
+get_net  -filter -hierarchical -hsc -nocase -of_objects -regexp
+get_nets  -filter -hierarchical -hsc -nocase -of_objects -regexp
+get_noroute_data  -dbu -design
+get_object_name 
+get_orig_insts 
+get_path_groups  -filter -nocase -quiet -regexp
+get_per_mode_delays  -nomode
+get_per_mode_slews 
+get_pin  -filter -hierarchical -hsc -nocase -of_objects -regexp
+get_pins  -filter -hierarchical -hsc -nocase -of_objects -regexp -times
+get_plan_path 
+get_point_blockage_data  -dbu -design
+get_port  -filter -nocase -of_objects -regexp
+get_ports  -filter -nocase -of_objects -regexp
+get_power_level 
+get_read_files  -command -quiet
+get_region_enclosing_guide  -design
+get_remove_assign_options  -all -design
+get_routing_blockage_data  -dbu -design
+get_tracks_in_bbox  -design -hx -hy -layer -lx -ly
+get_tracks_in_gcell  -design -layer -x -y
+get_vdir_group_name  -design
+get_vdir_name  -reset
+get_vdir_region_name  -design
+get_via_resistance  -bottom -top
+get_write_attributes 
+getenv 
+gets 
+gint_dis 
+gint_is_in_congested_region 
+gint_placement_legal  -get -reset -set
+glo_gst 
+glo_phys_thm  -nodelay -nomapping
+glo_phys_thm_report 
+glo_zopt 
+glob  -directory -join -nocomplain -path -tails -type -types
+global 
+global_area 
+global_incremental 
+gnet_dis 
+gobble  -no_recur
+gpin_curves 
+gpin_dis 
+gpin_reqs 
+grab 
+grid 
+group  -group_name
+group_path  -critical_range -default -exception_name -fall -fall_from -fall_through -fall_to -from -hold -name -rise -rise_from -rise_through -rise_to -setup -through -to -weight
+hdl_build_implementation  -parameters
+hdl_create  -h
+hdl_create subcommand  -h
+hdl_create_binding  -operator
+hdl_create_component 
+hdl_create_implementation  -v1995 -v2001 -vhdl87 -vhdl93
+hdl_create_library 
+hdl_create_operator  -signed -unsigned
+hdl_create_package  -path
+hdl_create_parameter  -hdl_invisible
+hdl_create_pin  -inout -input -output
+help 
+hidden_proc 
+hide_command 
+hier_connect 
+history 
+identify_multibit_cell_abstract_scan_segments  -design -dont_check_dft_rules -libcell -preview
+identify_shift_register_scan_segments  -incremental -max_length -min_length -preview
+identify_shift_register_segments_int  -incremental -max_length -min_length -preview
+identify_test_mode_registers  -design -et_log -library -macro -preview -stil
+idm_check_pin_name_format  -tprefix -ysuffix
+idm_read_config_file  -config_file -preview
+if 
+image 
+include 
+incr 
+incr_retime  -balance_registers -critical_range -incr_retime_attr_only -min_area -min_delay -tns_opto
+incr_retime_over_comb_instance  -backward -balance_registers -critical_range -edit_netlist -expand -extract_enable_signal -forward -min_area -min_delay -preview -print_sandbox -through_hier_boundary -tns_opto
+incr_retime_over_driver_instance  -balance_registers -critical_range -edit_netlist -expand -extract_enable_signal -min_area -min_delay -preview -print_sandbox -through_hier_boundary -tns_opto
+incr_retime_over_load_instance  -balance_registers -critical_range -edit_netlist -expand -extract_enable_signal -min_area -min_delay -preview -print_sandbox -through_hier_boundary -tns_opto
+incr_retime_register  -backward -balance_registers -critical_range -edit_netlist -expand -extract_enable_signal -forward -min_area -min_delay -preview -print_sandbox -through_hier_boundary -tns_opto
+incr_retime_registers  -backward -balance_registers -critical_range -edit_netlist -expand -extract_enable_signal -forward -min_area -min_delay -preview -print_sandbox -through_hier_boundary -tns_opto
+index_collection  -index
+info args body cmdcount commands complete default exists globals hostname level library loaded locals nameofexecutable patchlevel procs script sharedlibextension tclversion vars
+initialize_physical_instances 
+inout_mate 
+insert_dft  -h
+insert_dft subcommand  -h
+insert_memory_bist  -configfile -workdir
+insert_plc_buf  -driver -inv -load -x -y
+insert_shadow_dft_int  -around -auto -balance -dont_map -exclude -exclude_shadow_logic -fall -group -minimum_shadow_logic_pins -mode -only -preview -rise -test_clock_pin -test_control
+insert_tiehilo_cells  -all -allow_inversion -hi -hilo -lo -maxfanout -skip_unused_hier_pins -verbose
+instantiate_elt_model  -ctos -elt_name -library -mark_undriven -name
+interp 
+iopt  -execute
+iopt_cell_count_opto 
+iopt_gate_composition  -delay_mode -design -explore_mask -force -instances -manager_cleanup -no_input_phase -power_mode -prefix -remove_reconvergence -side_outputs_ok -suck_0 -suck_1 -suck_buffers -suck_inverters -trick
+iopt_partition  -cmd -crr_style -dup_style -name -replace
+iopt_reconvergence_removal  -info_only -proc
+iopt_sequential_duplication  -cost_group -force -instances
+iopt_sequential_resynthesis  -cost_group -instances
+is_clds_mode 
+is_command_hidden 
+is_dev_rc 
+is_dos_file 
+is_encrypted_file 
+is_interrupt 
+is_list_of_vdir_objects 
+is_net_preserved 
+is_phys_license 
+is_phys_token 
+is_point_blocked  -design -fence -nodesign -x -y
+is_point_inside_core  -design -nodesign -x -y
+is_pow_start_point 
+is_rc_cg_inst 
+is_rc_def 
+is_rel_rc 
+is_ultra2_option 
+is_vdir_object 
+isolation_cell  -h
+isolation_cell subcommand  -h
+iterator_active_variables 
+iterator_clear_data 
+iterator_current_variable 
+iterator_next_value 
+iterator_size 
+join 
+jtag_instruction 
+jtag_instruction_register 
+jtag_macro 
+jtag_port 
+label 
+labelframe 
+lappend 
+lassign 
+launch  -h
+launch subcommand  -h
+lcd 
+lec_override_in 
+legalize_any_to_vdir 
+legalize_vdir_to_vhdl 
+legalize_vdir_to_vlog 
+legalize_vhdl_to_vdir 
+legalize_vlog_to_vdir 
+level_shifter  -h
+level_shifter subcommand  -h
+libcell_has_user_function 
+lic_reset_power_analysis 
+lic_set_power_analysis 
+license  -h
+license subcommand  -h
+lindex 
+linsert 
+list 
+listbox 
+ll  -R -attribute -computed -dir -long -width
+llength 
+lls 
+log_channel 
+log_command 
+log_stdout 
+lower 
+lp_clock_gating_auto_path_adjust 
+lp_connect_cg_dft 
+lp_declone_cg  -hierarchical -no_clock_tree_traversal
+lp_import_cg_cmd 
+lp_insert_cg_in_netlist 
+lp_insert_multi_stage_cg  -hierarchical
+lp_join_cg 
+lp_new_vcd_analysis 
+lp_preview_clock_gating 
+lp_split_cg 
+lp_state_retention_connect_pgpins 
+lp_state_retention_swap 
+lp_swap_srpg 
+lp_vcd_analysis 
+lpopd 
+lpushd 
+lrange 
+lrepeat 
+lreplace 
+lreverse 
+ls  -R -attribute -computed -dir -long -width
+lsearch  -all -ascii -decreasing -dictionary -exact -glob -increasing -index -inline -integer -nocase -not -real -regexp -sorted -start -subindices
+lset 
+lsort  -ascii -command -decreasing -dictionary -increasing -index -indices -integer -nocase -real -unique
+mac_graph  -check -cycles -gold -incremental -lower_bound -only_retimeable -reset -upper_bound -verbose
+man 
+map_mbist_cgc_to_cgic  -clock_gating_cell -design
+map_reset_counter 
+mb_combo_replacement 
+mb_seq_replacement 
+mbist_clock 
+mbist_direct_access 
+mbist_get_all_bist_engines_and_clks 
+mbist_get_all_mbist_instructions 
+mbist_get_all_read_bist_engine_segmentation_detail 
+mbist_get_bist_engines  -pt_file
+mbist_get_bitmap_enabled_bist_engines  -pt_file
+mbist_get_direct_access_pin  -pt_file -type
+mbist_get_direct_access_pin_polarity  -pt_file -type
+mbist_get_instruction_name  -default_instr_name -pt_file
+mbist_get_non_bb_bist_engines  -pt_file
+mbist_get_register_name  -default_reg_name -pt_file
+mbist_get_summary_table_info 
+mbist_get_tdr_length  -default_instr_name -pt_file
+mbist_get_test_enable  -pt_file
+mbist_get_test_enable_polarity  -pt_file
+mem_get_address_buses 
+mem_get_address_size 
+mem_get_associated_address_bus 
+mem_get_clock_pins 
+mem_get_data_read_buses 
+mem_get_data_size 
+mem_get_data_write_buses 
+mem_get_final_index 
+mem_get_initial_index 
+mem_get_input_buses 
+mem_get_input_pins 
+mem_get_memory_cells 
+mem_get_memory_type 
+mem_get_output_buses 
+mem_get_output_function 
+mem_get_output_pins 
+mem_get_range_direction 
+mem_get_timing_arcs 
+mem_get_tristate_enable 
+mem_get_write_clock 
+mem_get_write_enable 
+mem_is_pin_tristate 
+memory 
+memory_cells 
+menu 
+menubutton 
+merge_gcell_grid  -design -level
+merge_gcell_grid_done 
+merge_interface_files  -hier1 -hier2 -pt_file1 -pt_file2
+merge_to_multibit_cells 
+mesg_make  -error -group -id -info_priority -internal_group -long_desc -short_desc -warning
+mesg_priority_changed 
+mesg_reset  -quiet
+mesg_reset_extra_data 
+mesg_send  -caller -file_info -newline -object_info
+mesg_send_internal  -caller -file_info -module_name -object_info
+mesg_severity_changed 
+message 
+more 
+move 
+move_blockage  -dx -dy -x -y
+move_flop  -design -pre_iopt_setup -verbose
+move_instance  -dx -dy -x -y
+move_load  -dx -dy -no_buffering -x -y
+move_pinstance  -dx -dy -x -y
+move_port  -dx -dy -x -y
+move_region  -dx -dy -x -y
+multi_cycle  -capture_shift -from -hold -launch_shift -mode -name -paths -setup -through -to
+mux_opto_design  -effort
+mv  -flexible -slash_ok
+namespace 
+ncprotect_version 
+need_lockup_element  -destClk -srcClk -srcClkEdge
+netlist_dis 
+new_design 
+new_instance 
+new_port_bus 
+new_primitive 
+new_subport_bus 
+new_tmodel_instance  -mark_undriven -name
+new_tmodel_port_bus  -inout -input -internal -left_bit -name -output -right_bit
+new_tmodel_timing_arc  -clock_edge_arc -combo_arc -delays -from_pin -setup_arc -to_internal -to_pin
+ns_send 
+opcg_domain 
+opcg_trigger 
+open 
+open_bounce_channel 
+openi 
+option 
+options 
+orderTheChainsForPhysComp  -chains -decompressor
+orderTheChannels  -elements
+osc_source 
+pack 
+package  forget ifneeded names present provide require unknown vcompare versions vsatisfies
+pand 
+panedwindow 
+panl 
+panr 
+panu 
+parse_options 
+path_adjust  -delay -from -hold -mode -name -paths -setup -through -to
+path_delay  -delay -from -hold -mode -name -paths -setup -through -to
+path_disable  -from -hold -mode -name -paths -setup -through -to
+path_group  -from -group -hold -mode -name -paths -setup -through -to
+pcanvas 
+pden 
+phys_net_info 
+physical_buf  -critical_path -drivers -low_effort -remove -verbose
+physical_delay  -delay -net -pin -resistance -verbose
+pid 
+pinst 
+pinstance_closest_points  -center -overlap -uu
+pkg_mkIndex 
+place 
+place_info_hash_value 
+placement_buf  -crit_only -critical_path -drc_buf_only -drivers -local -low_effort -pre_iopt_setup -remove -verbose
+plan 
+plc_check  -file -verbose
+plc_cluster  -top -verbose
+plc_create_partial_blockages  -density_incr -gcell_per_row -max_density -min_area -verbose -verbose
+plc_dft  -skip_incr -top -verbose
+plc_dump_timing  -fname
+plc_global  -top -verbose
+plc_incr  -timing_driven -top -verbose
+plc_install_blockage_router  -verbose
+plc_islegal  -verbose
+plc_leg  -premorph -timing_driven -verbose
+plc_morph  -adjust -multiphase -native_util -verbose -x_size -y_size
+plc_probabilistic_route  -test_detour -test_score -verbose
+plc_recover  -verbose
+plc_report_unplaced 
+plc_report_utilization 
+plc_save  -verbose
+plc_td  -dump_timing -effort -ignore_unplaced -nolegal -premorph -verbose
+popd 
+power_analysis_preprocess 
+predict_qos  -abandon_existing_placement -ignore_scan_chains -parasitic_output_file -reference_config_file
+prepend_chain_int  -design -elements
+preserve_domain_crossings_int  -preview
+print 
+print_design_info 
+print_dp_operators 
+print_funtype_pins 
+print_rc_banner 
+proc 
+propagate_constants 
+propagate_constraints  -block_sdc -glue_sdc -logfile -netlist -out_sdc -partial_chip_sdc -rule_instance_file -rule_instance_template
+propagate_dft_clock_domain_info 
+protect 
+pushd 
+puts  -translation
+pwd 
+quantify_clear_data 
+quantify_disable_recording_data 
+quantify_is_recording_data 
+quantify_is_running 
+quantify_isolated  -file
+quantify_save_data 
+quantify_start_recording_data 
+quantify_stop_recording_data 
+quit 
+radiobutton 
+raise 
+rc_create_iso_rule_in_macro_model  -cells -cpf_pins -enable_driver -enable_polarity -exclude_pins -from_power_domain -location -macro -name -off_domain -open_source_pins_only -output_value -scope -secondary_domain -to_power_domain -within_hierarchy
+rc_create_macro_model  -name
+rc_set_macro_inst_other_ports_pd 
+rc_validate_iso_rule 
+read 
+read_complete_cmd 
+read_config_file 
+read_cpf  -design -library
+read_crf  -clds_license -customer_crf_file -default_crf_file
+read_ctl_internal 
+read_ctstch  -design -ignore_other
+read_db  -from_tcl -quiet -verbose
+read_def  -create_ports -design -hierarchical -ignore_errors -incremental -keep_filler_cells -no_specialnets
+read_dfm 
+read_dft_abstract_model  -assume_connected_shift_enable -ctl -instance -segment_prefix
+read_encounter  -h
+read_encounter subcommand  -h
+read_gridinfo 
+read_hdl  -define -library -netlist -sv -top -v1995 -v2001 -vhdl
+read_interface_files  -mbist_read_tdr_file -mbist_tdr_file -mbistdiag_tdr_file -pt_file -rombist_diag_tdr_file
+read_io_speclist 
+read_netlist  -define -top -v2001
+read_saif  -command
+read_sdc  -command
+read_sdp_file  -design -file -hier_path -origin -preserve_size_ok
+read_spef  -hierarchical -incremental -max_fanout
+read_tcf  -ignorecase -instance -scale -update -verbose -weight
+read_trialroute_wire_report 
+read_vcd  -activity_profile -end_time -ignorecase -module -simvision -start_time -static -time_window -vcd_module -write_sst2
+read_xml_filter  -verbose -vname
+read_xml_mesg  -verbose
+recheck 
+recompute_scale_factors  -design
+redirect  -append -mesg -tee -variable
+refold_datapath 
+refr 
+regexp  - -about -all -expanded -indices -inline -line -lineanchor -linestop -nocase -start lineanchor
+regress  -no_echo
+regsub  - -all -expanded -line -lineanchor -linestop -nocase -start lineanchor
+relink_design_to_power_mode 
+reload_cpf  -design
+remap 
+remove_all_physical_cap_and_del 
+remove_assigns 
+remove_assigns_without_optimization  -buffer_or_inverter -design -ignore_preserve_map_size_ok -ignore_preserve_setting -include_local_constant_assigns -no_buffers_use_inverters -preserve_dangling_nets -respect_boundary_optimization -skip_hierarchical_subdesigns -skip_unconstrained_paths -verbose
+remove_buffer_tree  -drivers -pre_iopt_setup -verbose
+remove_cdn_loop_breaker  -instances
+remove_clock_gating_check  -fall -high -hold -low -rise -setup
+remove_clock_latency  -clock -source
+remove_cpf_iso_rule_on_pins  -pins
+remove_cpf_ls_rule_on_pins  -pins
+remove_disable_clock_gating_check  -fall -high -hold -low -rise -setup
+remove_from_collection 
+remove_generated_clock  -all
+remove_ideal_net 
+remove_ideal_network 
+remove_input_delay  -clock
+remove_inserted_sync_enable_logic 
+remove_instance 
+remove_iso_rule_on_pin  -isolation_rules -pins
+remove_ls_rule  -level_shifter_rules -pins
+remove_output_delay  -clock
+remove_physical_instances 
+remove_port 
+rename 
+replace_op_with_tech_insts 
+replace_opcg_scan  -dont_map -edge_mode -effort
+replace_scan  -dont_check_dft_rules -to_non_scan
+report area  -depth -instance_hierarchy -min_count -physical -summary
+report boundary_opto  -hierarchy
+report cdn_loop_breaker  -sdcfile -version
+report cell_delay_calculation  -from_fall -from_pin -from_rise -to_fall -to_pin -to_rise
+report checks  -clock_domain_crossing -constraints -detail -dft -error -hdl_lint -info -library -physical -power -summary -warning
+report clock_gating  -cg_instance -clock -clock_pin -detail -fanout_histogram -gated_ff -instance -multi_stage -no_hierarchical -preview -summary -ungated_ff
+report clocks  -generated -ideal -mode
+report congestion 
+report datapath  -all -full_path -max_width -mux -no_area_statistics -no_header -print_inferred -print_instantiated -sort
+report design_rules 
+report dft_chains  -chain -dft_configuration_mode -opcg_side_scan -summary
+report dft_registers  -dont_scan -fail_tdrc -latch -lockup -misc -multi_bit -pass_tdrc -shift_reg
+report dft_setup 
+report dft_violations  -abstract -async -clock -race -shiftreg -tristate -xsource -xsource_by_instance
+report gates  -instance_hier -library_domain -power -yield
+report hierarchy  -subdesign
+report instance  -detail -power -timing
+report isolation  -detail -from_power_domain -hierarchical -to_power_domain
+report level_shifter  -detail -from_power_domain -hierarchical -to_power_domain -verbose
+report memory 
+report memory_cells 
+report messages  -all -error -include_suppressed -info -warning
+report net_cap_calculation  -fall -rise
+report net_delay_calculation  -driver_pin -fall_fall -load_pin -rise_rise
+report net_res_calculation 
+report nets  -cap_worst -hierarchical -maxfanout -minfanout -pin -sort
+report opcg_equivalents  -pinVal
+report operand_isolation  -oi_instance
+report ple 
+report port  -delay -driver -load
+report power  -clock_tree -depth -detail -flat -full_instance_names -height -hier -mode -nworst -rtl_cross_reference -sort -tcf_summary -verbose -width
+report power_domain  -detail -power_mode -power_nets -qor
+report qor  -levels_of_logic -nopower
+report scan_compressibility  -directory
+report sequential  -deleted_seqs -hier -instance_hier
+report slew_calculation  -fall -rise
+report state_retention  -detail -hierarchical -power_domain -power_gating_pin_driver -verbose
+report summary  -all -mode
+report test_power  -atpg -capture -clock -compression_mode -directory -flop_toggle_percentage -library -lower_bound -power_mode -scan_shift -tcf -upper_bound
+report timing  -cost_group -endpoints -exceptions -from -full_pin_names -gtd -gui -lint -mode -num_paths -paths -physical -slack_limit -summary -through -to -verbose -worst
+report yield  -depth -min_count -summary
+report_cell_instance_power 
+report_checks  -clock_domain_crossing -constraints -detail -dft -error -hdl_lint -info -library -physical -power -summary -warning
+report_clock_path  -buf_levels -from -gui -to
+report_clock_tree  -mode
+report_elmore_delay  -num_loads -save -simple
+report_retiming  -critical_cycle -state_points
+report_timing  -cost_group -endpoints -exceptions -from -full_pin_names -gtd -gui -lint -mode -num_paths -paths -physical -slack_limit -summary -through -to -verbose -worst
+reset_attr  -quiet
+reset_attribute  -quiet
+reset_def  -design
+reset_design  -verbose
+reset_dft_cached_data 
+reset_gcell_data  -design
+reset_mode 
+reset_opcg_equivalent 
+reset_power_analysis 
+reset_power_mode 
+reset_region_skip_flag 
+reset_scan_equivalent 
+reset_secondary_domain_of_instances 
+reset_session 
+reset_write_hdl_attrs 
+reset_xml_mesg  -id -tool
+resize_blockage  -bottom -left -right -top
+resize_region  -bottom -left -right -top
+restore_blockage 
+restore_congestion_map  -design
+restore_design  -cpf_file -db_dir -def -design_name -view -worst_corner
+restore_instance 
+restore_port 
+restore_region 
+restore_row 
+restore_rules_state 
+restore_session  -db -file
+retime  -clock -effort -min_area -min_delay -prepare
+retime_decompose 
+retime_report  -critical_cycle -state_points
+retime_unit_test  -test
+retime_verify  -decompose -strong_check -weak_check
+return 
+return_chain_head_tail_inversions  -dft_configuration_mode -mode_name -multi_mode
+rm  -quiet
+rotatel 
+rotater 
+rows 
+rtl_mbist_add_connection  -inst1_module -inst2_module -instance1 -instance1_bit -instance1_bit_bus -instance1_pin -instance1_pin_port_connected -instance1_port -instance2 -instance2_bit -instance2_bit_bus -instance2_pin -instance2_pin_port_connected -instance2_port -module
+rtl_mbist_add_disconnection  -bit -containing_module -drv_load_bit -drv_load_inst -drv_load_inst_mod -drv_load_name -inst_module -instance -is_bus -is_drv_load_bus -pin -port
+rtl_mbist_add_module  -module
+rtl_mbist_add_new_instance  -containing_module -inst_module -instance -primitive
+rtl_mbist_add_new_pin  -containing_module -inst_module -instance -left_bit -pin_name -right_bit
+rtl_mbist_add_new_port  -input -left_bit -module -order -output -port_name -right_bit
+rtl_mbist_add_new_source_file  -file_name
+rtl_mbist_add_parameterized_mod  -rc_name -rtl_name
+rtl_mbist_add_port_info  -input -left_bit -module -order -output -port_name -right_bit
+rtl_mbist_check_associate_net  -associate_net_inst_module -associate_net_instance_bit -associate_net_with_inst -associate_net_with_inst_pin -check_net_inst_module -check_net_instance -check_net_instance_bit -check_net_instance_pin -check_net_instance_port -module
+rtl_mbist_dump_mod_list  -file
+rtl_mbist_end 
+rtl_mbist_generate_output  -tem_prefix -workdir
+rtl_mbist_init  -design -whoami
+rtl_mbist_rename_instance  -containing_module -new_name -original_name
+rtl_mbist_update_disconnection  -bit -inst_module -instance -module -old_actual_inst -old_actual_inst_pin -pin -port
+rtlplan_laboratory 
+run_et  -caller -directory -e -host
+save_blockage 
+save_congestion_map  -design
+save_instance 
+save_mesg_data  -ignorecase -maxdepth -mindepth -option* -regexp -split -vname
+save_port 
+save_region 
+save_row 
+save_rules_state 
+save_session  -db -to_file
+savei 
+scale 
+scan 
+scan_chain 
+scan_clock 
+scan_clock_a 
+scan_clock_b 
+scrollbar 
+sdc_shell 
+sdp_attributes_writable  -reset
+sdp_create_column  -name -path
+sdp_create_datapath  -name -path
+sdp_create_group  -design -name
+sdp_create_instance  -inst -name -path
+sdp_create_row  -name -path
+sdp_extractor  -design
+search 
+seek 
+selection 
+send 
+set 
+set_attr  -lock -quiet
+set_attr_using_address  -quiet
+set_attribute  -lock -quiet
+set_base_domains_for_power_domain  -base_domains -power_domain
+set_case_analysis 
+set_clock_gating_check  -fall -high -hold -low -rise -setup
+set_clock_groups  -allow_paths -asynchronous -logically_exclusive -name -physically_exclusive
+set_clock_latency  -clock -early -fall -late -max -min -rise -source
+set_clock_sense  -clocks -negative -positive -pulse -stop_propagation
+set_clock_skew  -minus_uncertainty -plus_uncertainty
+set_clock_transition  -fall -max -min -rise
+set_clock_uncertainty  -clock -fall -fall_from -fall_to -from -from_edge -hold -rise -rise_from -rise_to -setup -to -to_edge
+set_clock_waveform 
+set_compatible_test_clocks  -all -design -dont_check_dft_rules -none
+set_data_check  -clock -fall_from -fall_to -from -hold -rise_from -rise_to -setup -to
+set_dft_configuration_mode  -dft_configuration_mode
+set_disable_clock_gating_check  -fall -high -hold -low -rise -setup
+set_disable_timing  -from -to
+set_dont_touch 
+set_dont_touch_network  -no_propagate
+set_dont_use 
+set_drive  -fall -max -min -rise
+set_driving_cell  -cell -clock -clock_fall -dont_scale -fall -from_pin -input_transition_fall -input_transition_rise -lib_cell -library -max -min -multiply_by -no_design_rule -pin -rise
+set_equal 
+set_false_path  -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -through -to
+set_fanout_load 
+set_gcell_avoid_libcells  -design -hx -hy -lx -ly
+set_gcell_info  -design -h_remaining -h_total -v_remaining -v_total -x -y
+set_gcell_target_density  -design -hx -hy -lx -ly
+set_hierarchy_separator 
+set_ideal_net 
+set_ideal_network  -no_propagate
+set_input_delay  -add_delay -clock -clock_fall -clock_rise -fall -level_sensitive -max -min -name -network_latency_included -rise -source_latency_included
+set_input_transition  -clock -clock_fall -fall -max -min -rise
+set_lib_pin  -max_capacitance -max_fanout -max_transition
+set_lib_pins  -max_capacitance -max_fanout -max_transition
+set_load  -max -min -pin_load -subtract_pin_load -wire_load
+set_load_unit  -femtofarads -picofarads
+set_logic_dc 
+set_logic_one 
+set_logic_zero 
+set_ls_rule_prefix  -level_shifter_rule -prefix
+set_max_capacitance 
+set_max_delay  -exception_name -fall -fall_from -fall_through -fall_to -from -rise -rise_from -rise_through -rise_to -through -to
+set_max_dynamic_power 
+set_max_fanout 
+set_max_leakage_power 
+set_max_lvt_percentage  -lvt_libs -percentage
+set_max_time_borrow 
+set_max_transition 
+set_mesg_help 
+set_min_delay  -exception_name -fall -fall_from -fall_through -fall_to -from -rise -rise_from -rise_through -rise_to -through -to
+set_multicycle_path  -end -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -start -through -to
+set_opcg_equivalent  -debug -edge_mode_pin -loop_back_pin -opcg_cell -pin_map -scan_cell -tieoff_pins
+set_operating_conditions 
+set_opposite 
+set_output_delay  -add_delay -clock -clock_fall -clock_rise -fall -level_sensitive -max -min -name -network_latency_included -rise -source_latency_included
+set_path_adjust  -exception_name -fall -fall_from -fall_through -fall_to -from -hold -rise -rise_from -rise_through -rise_to -setup -through -to
+set_port_fanout_number 
+set_read_file  -command
+set_region_avoid_libcell  -design -hx -hy -lx -ly
+set_remove_assign_options  -buffer_or_inverter -design -ignore_preserve_map_size_ok -ignore_preserve_setting -include_local_constant_assigns -no_buffers_use_inverters -preserve_dangling_nets -reset -respect_boundary_optimization -skip_hierarchical_subdesigns -skip_unconstrained_paths -verbose
+set_scan_equivalent  -non_scan_cell -pin_map -scan_cell -tieoff_pins
+set_secondary_domain_for_instance  -instance -secondary_domain
+set_time_unit  -nanoseconds -picoseconds
+set_timing_derate  -cell_check -cell_delay -clock -data -early -late -net_delay
+set_unconnected 
+set_units  -capacitance -current -power -resistance -time -voltage
+set_wire_load_mode  -lock -quiet
+set_wire_load_model  -library -max -min -name
+set_wire_load_selection_group  -library -max -min -object_list
+set_write_hdl_attrs 
+setenv 
+sh 
+shell 
+shift_enable 
+show_deleted_seqs 
+shutdown_ian  -design
+signoff_checks 
+silent 
+sizeof_collection 
+slack_of_cg_in_mode  -cost_group -dont_update_wl -mode
+slack_of_cost_grps_in_mode  -mode
+snet 
+socket 
+sort_collection  -descend
+source  -quiet -verbose
+specify_floorplan  -core_box -die_box -die_points -height -width
+specify_paths  -capture_clock_pins -capture_clock_pins_fall_clock -capture_clock_pins_fall_pin -capture_clock_pins_rise_clock -capture_clock_pins_rise_pin -domain -from -from_fall_clock -from_fall_pin -from_rise_clock -from_rise_pin -lenient -mode -through -through_fall_pin -through_rise_pin -to -to_fall_clock -to_fall_pin -to_rise_clock -to_rise_pin
+spinbox 
+split 
+split_db  -from_tcl -script -to_file
+split_multibit_cell  -allow_netlist_multibits -debug -force
+start_dvfs_flow  -design
+state_retention  -h
+state_retention subcommand  -h
+statistics  -h
+statistics subcommand  -h
+string  -nocase -strict bytelength compare equal first index is last length map match range repeat replace tolower totitle toupper trim trimleft trimright wordend wordstart
+string_representation 
+subst 
+summary_table  -outdir
+super_thread_arg 
+suppress_messages  -n
+switch  -exact -glob -indexvar -matchvar -nocase -regexp
+symbol_index2name 
+synthesize  -auto_identify_shift_register -effort -incremental -no_incremental -shift_register_max_length -shift_register_min_length -spatial -to_generic -to_mapped -to_placed
+table 
+tap_port_in 
+tape_pause_and_commit_ian  -design
+tcf_bdd_analysis 
+tclListValidFlags 
+tclLog 
+tclParseConfigSpec 
+tclPkgSetup 
+tclPkgUnknown 
+tcl_close 
+tcl_findLibrary 
+tcl_history 
+tcl_info 
+tcl_load 
+tcl_open 
+tcl_puts 
+tcl_source 
+techelt_fits 
+tell 
+test_captable_reader  -Metal_Layer_Number -spacing -width
+test_clock 
+test_mode 
+text 
+then 
+tim_check 
+time 
+timestat 
+timing 
+tns  -execute -low_effort -max_fo -skip_latch_opto
+toplevel 
+trace 
+undo 
+ungroup  -all -exclude -flatten -only_user_hierarchy -prefix -simple -threshold
+unhide_command 
+uniquify  -verbose
+uniquify_design_for_cpf  -design
+uniquify_for_mapping  -not_on_properties -not_on_tdrc
+unknown 
+unload  -keeplibrary -nocomplain
+unset 
+unsuppress_messages 
+update_available_row_area 
+update_blockage_data 
+update_cell_padding  -design
+update_chain_with_lockups  -terminal_lockup
+update_cluster_data 
+update_congestion_data  -design
+update_congestion_map  -design -pin_density
+update_gcell_congestion  -design
+update_gcell_pin_density  -design
+update_gcell_utilization  -design
+update_hdl_input  -end_line -file -patt_string -repl_string -start_line -vhdl
+update_instance_data  -location_x -location_y -orientation -placement_status
+update_interface_files  -hier -pt_file
+update_interface_files_for_instance  -continue_mbist -diagnose_mbist -diagnose_rombist -mbist_reg -mbistdiag_reg -pt_file -read_mbist -readmbist_reg -rombistdiag_reg -run_mbist
+update_interface_files_for_measure_port  -dummy_port_nm -eng_port_list -pt_file
+update_iso_rule  -isolation_rule -pins
+update_ls_rule  -level_shifter_rule -pins
+update_macro_model_with_other_ports  -analog_ports -feedthrough_ports -floating_ports -name
+update_macro_model_with_pd_rule  -boundary_ports -name -pd
+update_port_data  -location_x -location_y -orientation -placement_status
+update_region_skip_flag 
+update_scan_chains  -chains -flops -max_print_flops -preview -type
+update_smooth_congestion_map  -design -scale
+uplevel 
+upvar 
+util 
+validate_constraints  -init_sequence_file -logfile -netlist -rtl -sdc
+validate_timing  -include -libs -netlist -rep_tim_str -sdc
+variable 
+vdir_lsearch 
+verify_power_structure  -all -continue_on_error -detail -isolation -level_shifter -license -post_synthesis -pre_synthesis -retention
+vname 
+what_is 
+what_is_list 
+while 
+winfo 
+wm 
+write_atpg  -apply_bidirs_at -apply_inputs_at -cadence -compression -decimals_ok -dft_configuration_mode -mentor -picoseconds -stil -strobe_outputs_at -strobe_width -test_clock_waveform
+write_bsdl  -bsdl_package_name -bsdlout -directory -expose_ports_with_pinmap -include_private_instructions -pinmap_file
+write_compression_macro  -asymmetric_scan_in -block_select -chains -compressed_chains -compressor -decompressor -file -info_file -jtag_control -low_pin_compression -mask -mask_sharing_ratio -no_fullscan_muxing -remove_cancelling_terms_for_hierarchical_flow -scan_in_pipeline_depth -scan_out_pipeline_depth -separate_mask_ports -serial_misr_read -shared_scan_in_pins -sub_chains
+write_config_template 
+write_cpf  -design -output_directory -prefix -separate_library_cpf
+write_cvf 
+write_db  -all_root_attributes -no_root_attributes -quiet -script -to_file -verbose
+write_def  -ignore_groups -ignore_placed_instances -scan_chains
+write_def_special_net_path  -design
+write_design  -basename -encounter -gzip_files -tcf
+write_dft_abstract_model  -ctl -dft_configuration_mode -include_compression_information
+write_dft_clock_domain_info 
+write_dft_rtl_model  -directory
+write_do_ccd  -h
+write_do_ccd subcommand  -h
+write_do_clp  -add_iso_cell -clp_out_report -cpf_file -design -env_var -ignore_ls_htol -logfile -netlist -no_exit -tmp_dir
+write_do_file  -ccd -ccd_ff -cdc -clds_license -clp -clp_ff -dft -hal -lib -netlist -phys
+write_do_lec  -cpf_golden -cpf_revised -env_var -flat -golden_design -hier -logfile -no_exit -pre_compare -pre_exit -pre_read -revised_design -save_session -sim_lib -sim_plus_liberty -tmp_dir -top -verbose
+write_do_verify  -h
+write_do_verify subcommand  -h
+write_dot  -fontsize -landscape -net_names -no_cell_names -no_instance_names
+write_encounter  -h
+write_encounter subcommand  -h
+write_et  -atpg -atpg_options -bsdl -bsdl_package_name -bsdl_package_path -bsv -build_faultmodel_options -build_model_options -build_testmode_options -compression -configuration_mode_order -delay -dft_configuration_mode -directory -effort -force -library -rrfa -rrfa_options -run_from_et_workdir -verify_test_structures_options
+write_et_atpg  -atpg_options -build_faultmodel_options -build_model_options -build_testmode_options -compression -configuration_mode_order -delay -dft_configuration_mode -directory -effort -force -library -ncsim_library -run_from_et_workdir -verify_test_structures_options
+write_et_bsv  -bsdl -bsdl_package_name -bsdl_package_path -build_model_options -directory -library -run_from_et_workdir
+write_et_dfa  -atpg_options -build_model_options -build_testmode_options -dfa_options -directory -effort -include_redundant_faults -library -run_from_et_workdir -verify_test_structures_options
+write_et_mbist  -bsdl -bsdl_package_name -bsdl_package_path -bsv -build_model_options -create_embedded_test_options -directory -library -mbist_interface_file_dir -mbist_interface_file_list -run_from_et_workdir
+write_et_rrfa  -atpg -atpg_options -build_model_options -build_testmode_options -directory -effort -force -library -rrfa_options -run_from_et_workdir -verify_test_structures_options
+write_etdb_gates  -abstract -depth -generic -suffix
+write_ets  -default -libs -netlist -no_exit -ocv -post_include -pre_include -sdc -sdf -spef
+write_ett  -dc -ett -strict -version
+write_forward_saif  -library -library_domain
+write_gates  -abstract -depth -equation -generic -suffix -v2001
+write_hdl  -abstract -depth -equation -generic -lec -suffix -v2001
+write_interface_files  -flow_type -instance -tap_in -tap_out -workdir
+write_io_speclist  -supplemental_file
+write_library_domain_commands  -verbose
+write_logic_bist_macro  -capture_window_counter -chains -channels -info_file -max_length_of_channels -program_counter
+write_mbist_testbench  -create_embedded_test_options -directory -ncsim_library -testbench_directory
+write_ovf 
+write_retiming_patch_logic  -file
+write_saif  -boundary_only -computed -duration -include_hier_ports
+write_scandef  -chains -dft_configuration_mode -dont_split_by_library_domains -dont_split_by_power_domains -dont_use_timing_model_pins -end_chains_before_lockups -partition -version
+write_script  -analyze_all_scan_chains -dont_overlay_segments -hdl
+write_sdc  -dc -exclude -mode -no_split -strict -version
+write_sdf  -celltiming -condelse -delimiter -design -edges -interconn -no_empty_cells -no_escape -no_input_port_nets -no_output_port_nets -nonegchecks -nosplit_timing_check -precision -recrem -setuphold -timescale -version
+write_sdp_file  -file -top_group
+write_set_load 
+write_spef 
+write_tcf  -boundary_only -computed -duration -hierarchical -include_hier_ports
+write_template  -area -cpf -dft -full -multimode -n2n -no_sdc -outfile -physical -power -retime -simple -split -yield
+write_xml_filter  -vname
+zcmp 
+zfit 
+zgrid 
+zin 
+zout 
+zpre 
+zsel 

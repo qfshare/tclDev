@@ -1,0 +1,53 @@
+"=========================================
+"       __|__        |            |      
+"   \   __|__     ---|---       \ | /    
+"      ___|___   ____|____   |---------| 
+"   \  |-----|       |       |  |---|  | 
+"      | --- |  -----|-----  |  |___|  | 
+"   /  | ---_|       |       |        _| 
+"                                         
+"         http://www.qfshare.info         
+"=========================================
+"  by lilifeng <leelifeng at gmail.com>   
+"  version 1.0                            
+"  last change 2010/12/21 17:00
+"=========================================
+"  help keyword or helpgrep keywords
+" example
+"  :helpgerp nocompatible
+"=========================================
+
+"  ______ ______ _  ________          ___   _ 
+" |  ____|  ____| |/ / __ \ \        / / \ | |
+" | |__  | |__  | ' / |  | \ \  /\  / /|  \| |
+" |  __| |  __| |  <| |  | |\ \/  \/ / | . ` |
+" | |____| |____| . \ |__| | \  /\  /  | |\  |
+" |______|______|_|\_\____/   \/  \/   |_| \_|
+"
+"            http://www.eeknow.cn         
+"
+"================================================
+
+function! Mysys()
+  if has("win32")
+    return "win32"
+  elseif has("unix")
+    return "unix"
+  else
+    return "mac"
+  endif
+endfunction
+
+let sys=Mysys()
+
+if sys=="win32"
+  source $VIM/vimfiles/myvim/funs.vim
+  source $VIM/vimfiles/myvim/vimrc.vim
+elseif sys=="unix"
+  source ~/.vim/myvim/funs.vim
+  source ~/.vim/myvim/vimrc.vim
+elseif sys=="mac"
+  source $VIM/vimfiles/funs.vim
+  source $VIM/vimfiles/vimrc.vim
+endif
+

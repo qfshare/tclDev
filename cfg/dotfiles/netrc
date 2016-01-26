@@ -1,0 +1,9 @@
+machine iftp
+login xoit
+password 12345678
+macdef init
+binary
+runique
+hash on
+prompt off
+

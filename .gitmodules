@@ -1,0 +1,15 @@
+[submodule "dot"]
+	path = dot
+	url = https://github.com/xoit/dotfiles.git
+[submodule "bin/tclAutoDoc"]
+	path = bin/tclAutoDoc
+	url = https://github.com/xoit/tclAutoDoc.git
+[submodule "bin/tclAutoPlan"]
+	path = bin/tclAutoPlan
+	url = https://github.com/xoit/tclAutoPlan.git
+[submodule "bin/tclAutoTest"]
+	path = bin/tclAutoTest
+	url = https://github.com/xoit/tclAutoTest.git
+[submodule "bin/tclAutoRls"]
+	path = bin/tclAutoRls
+	url = https://github.com/xoit/tclAutoRls.git

@@ -1,0 +1,46 @@
+[user]
+	name = Lifeng Li
+	email = lfli@company.com
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	ui = true
+	pager = true
+[color "branch"]
+	current = yellow reverse
+	local = yellow
+	remote = green
+[color "diff"]
+	meta = yellow bold
+	frag = magenta bold
+	old = red bold
+	new = green bold
+[color "status"]
+	added = yellow
+	changed = green
+	untracked = cyan
+[alias]
+  st = status -sb
+  co = checkout
+	cb = checkout -b
+  br = branch
+  mg = merge
+	cm = commit
+  ci = commit
+  ds = diff --staged
+  dt = difftool
+  mt = mergetool
+  last = log -1 HEAD
+  latest = for-each-ref --sort=-committerdate --format=\"%(committername)@%(refname:short) [%(committerdate:short)] %(contents)\"
+  ls = log --pretty=format:\"%C(yellow)%h %C(blue)%ad %C(red)%d %C(reset)%s %C(green)[%cn]\" --decorate --date=short
+  hist = log --pretty=format:\"%C(yellow)%h %C(red)%d %C(reset)%s %C(green)[%an] %C(blue)%ad\" --topo-order --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+[difftool "ks"]
+	cmd = ksdiff --partial-changeset --relative-path "$MERGED" -- "$LOCAL" "$REMOTE"
+[mergetool "ks"]
+	cmd = ksdiff --merge --output "$MERGED" --base "$BASE" -- "$LOCAL" "$REMOTE"

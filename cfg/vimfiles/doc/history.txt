@@ -1,0 +1,27 @@
+2009/12/6 14:06:58
+map the tab to <c-n>
+使用tab键代替ctrl-n的自动完成操作
+
+2009/12/5 22:59:57
+add the time before the current line
+自动添加时间在当前行的上一行
+
+2009/12/5 22:58:56
+add the bat and shell command of copy files to .vim or vimfiles directory
+添加了用于拷贝到.vim(Unix)或vimfiles(win)目录的批处理文件
+
+2009/12/4 22:59:00
+Setnu: add the show number function at the beginning of lines.
+Setnu: 添加在行首插入行号的函数
+
+2009/12/4 22:59:05
+add the syntax of dc tcl, pt and fm
+添加了dc、pt和fm的语法支持
+
+2009/12/3 22:59:08
+Tclproc: add the tcl proc function
+Tclproc: 添加快速输入tcl过程的函数
+
+2009/12/3 22:59:10
+Perlsub: add the perl sub function
+Perlsub: 添加快速输入Perl过程的函数

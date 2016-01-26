@@ -1,0 +1,6 @@
+#!/bin/tcsh -f
+###############################################################################
+## Standard .cshrc for UNIX users
+## Use this as your .cshrc, then make customizations in ~/.shell/user.cshrc
+###############################################################################
+if (-f $HOME/.shell/user.cshrc ) source $HOME/.shell/user.cshrc

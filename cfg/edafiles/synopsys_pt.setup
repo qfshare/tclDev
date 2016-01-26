@@ -1,0 +1,6 @@
+
+if {[info exists env(TCLDEVPATH)]} {
+  if {[file exists $env(TCLDEVPATH)/cfg/edafiles/user_pt.setup]} {
+    source $env(TCLDEVPATH)/cfg/edafiles/user_pt.setup ;
+  }
+}
