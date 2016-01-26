@@ -13,3 +13,6 @@
 [submodule "bin/tclAutoRls"]
 	path = bin/tclAutoRls
 	url = https://github.com/xoit/tclAutoRls.git
+[submodule "bin/tclOperator"]
+	path = bin/tclOperator
+	url = https://github.com/xoit/tclOperator
